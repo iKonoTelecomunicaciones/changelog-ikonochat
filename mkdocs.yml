@@ -7,7 +7,4 @@ nav:
   - About: index.md
 
 theme:
-  name: readthedocs
-  highlightjs: true
-  hljs_languages:
-    - yaml
+  name: material
