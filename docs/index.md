@@ -1,4 +1,4 @@
-## Colas de atención:
+## Colas de atención
 - Agentes distribuidos en colas de atención
 
 - Administración de las colas de atención: creación de colas y modificación de membresías
@@ -12,7 +12,7 @@
 
 
 
-## Contenido de los chats:
+## Contenido de los chats
 - Envío y recepción de imágenes, videos, emojis, PDF, documentos de Office y notas de voz
 
 - Se conserva el historial de la conversación sin importar el cambio de estado del chat, ni cuantas veces sea reasignado.
@@ -26,7 +26,7 @@
 
 
 
-## Menú de opciones:
+## Menú de opciones
 - Tipos de opciones del menú:
 
 - Selección de colas de atención para hablar con un agente
@@ -62,7 +62,7 @@
 
 
 
-## Gestión de chats:
+## Gestión de chats
 - Monitoreo de los chats en tiempo real
 
 - Los chats entrantes cuando no hay agentes disponibles se dejan en espera para ser asignados tan pronto como se conecta un agente
@@ -92,7 +92,7 @@
 
 
 
-## Gestión de clientes:
+## Gestión de clientes
 - Creación y modificación de información básica del cliente
 
 - Administración de permiso de consentimiento para contacto a través de WhatsApp
@@ -100,13 +100,13 @@
 - Interfaz para almacenar masivamente el permiso de consentimiento para contacto a través de WhatsApp, por medio de un archivo con el listado de contactos
 
 
-## Gestión de agentes:
+## Gestión de agentes
 - Interfaz de administración de agentes (creación y modificación)
 
 - Posibilidad de crear una cantidad limitada de agentes y un límite independiente de agentes con sesiones activas
 
 
-## Interfaz web:
+## Interfaz web
 - Interfaz web diferenciada para el agente y el supervisor
 
 - Notificaciones de mensajes nuevos en la interfaz web
@@ -128,7 +128,7 @@
 
 
 
-## Reportes:
+## Reportes
 - Chats pendientes: chats en los que el cliente está a la espera de respuesta por parte del agente
 
 - Chats en seguimiento: chats no resueltos, respondidos por un agente, a la espera de respuesta por parte del cliente
