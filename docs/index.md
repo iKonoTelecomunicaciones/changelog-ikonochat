@@ -21,23 +21,38 @@
 
 ## **Menú de opciones**
 
-- Tipos de opciones del menú:
-	- Selección de colas de atención para hablar con un agente.
-	- Mensajes de texto para mostrar información de links, horarios de atención, direcciones de sedes,
-	  información de contacto, etc.
-	- Consultas sencillas a servicios web externos.
-	- Solicitud de información a los usuarios ya sea para consultas a servicios web externos o para dejar un registro interno de los datos.
-	- Posibilidad de tener menú con opciones, o no tener menú y hacer la asignación de un agente directamente.
-	- Configuración de menús de 1, 2 y 3 niveles.
-	- Encabezados personalizados por cada submenú en los menús de varios niveles.
-	- Mensaje general y/o personalizado por opción del menú cuando se asigna un agente al chat.
-	- Posibilidad de devolverse al menú anterior.
-	- Recordatorios opcionales al usuario para que seleccione alguna opción del menú cuando ha pasado más de cierto tiempo.
-	- Resolución automática de chats cuando el usuario no selecciona ninguna opción del menú después de cierto tiempo.
-	- Opciones al terminar una consulta en el menú, que permite ver de nuevo el menú, hablar con un asesor o finalizar la conversación.
-	- Mensaje opcional de despedida cuando se termina una consulta en el menú.
-	- Posibilidad de tener una frase especial a la cual se responde con la asignación del chat a un agente, por ejemplo, si se presenta un link para hacer un pedido y luego se retorna al chat con la información del pedido.
-	- Solicitud al usuario de consentimiento para ser contactado a través de WhatsApp antes de presentarle el menú de opciones. En Gupshup también se almacena la información si es el caso.
+
+Tipos de opciones del menú:
+
+- Selección de colas de atención para hablar con un agente.
+
+- Mensajes de texto para mostrar información de links, horarios de atención, direcciones de sedes, información de contacto, etc.
+
+- Consultas sencillas a servicios web externos.
+
+- Solicitud de información a los usuarios ya sea para consultas a servicios web externos o para dejar un registro interno de los datos.
+
+- Posibilidad de tener menú con opciones, o no tener menú y hacer la asignación de un agente directamente.
+
+- Configuración de menús de 1, 2 y 3 niveles.
+
+- Encabezados personalizados por cada submenú en los menús de varios niveles.
+
+- Mensaje general y/o personalizado por opción del menú cuando se asigna un agente al chat.
+
+- Posibilidad de devolverse al menú anterior.
+
+- Recordatorios opcionales al usuario para que seleccione alguna opción del menú cuando ha pasado más de cierto tiempo.
+
+- Resolución automática de chats cuando el usuario no selecciona ninguna opción del menú después de cierto tiempo.
+
+- Opciones al terminar una consulta en el menú, que permite ver de nuevo el menú, hablar con un asesor o finalizar la conversación.
+
+- Mensaje opcional de despedida cuando se termina una consulta en el menú.
+
+- Posibilidad de tener una frase especial a la cual se responde con la asignación del chat a un agente, por ejemplo, si se presenta un link para hacer un pedido y luego se retorna al chat con la información del pedido.
+
+- Solicitud al usuario de consentimiento para ser contactado a través de WhatsApp antes de presentarle el menú de opciones. En Gupshup también se almacena la información si es el caso.
 
 
 ## **Gestión de chats**
