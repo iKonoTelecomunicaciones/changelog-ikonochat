@@ -1,17 +1,142 @@
-# Welcome to MkDocs
+## Colas de atención:
+- Agentes distribuidos en colas de atención
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+- Administración de las colas de atención: creación de colas y modificación de membresías
 
-## Commands
+- Segmentación de clientes por medio de un menú de opciones que representan las colas de atención
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- Asignación automática de chats entre los agentes conectados, con estrategia por turnos
 
-## Project layout
+- Transferencia de chats entre agentes y entre colas de atención
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+
+
+## Contenido de los chats:
+- Envío y recepción de imágenes, videos, emojis, PDF, documentos de Office y notas de voz
+
+- Se conserva el historial de la conversación sin importar el cambio de estado del chat, ni cuantas veces sea reasignado.
+
+- Historial de archivos enviados y recibidos en el chat
+
+- El agente puede citar mensajes del cliente al enviarle una respuesta (sólo API no oficial)
+
+- El agente recibe mensajes citados por el cliente (en las dos APIs)
+
+
+
+
+## Menú de opciones:
+- Tipos de opciones del menú:
+
+- Selección de colas de atención para hablar con un agente
+
+- Mensajes de texto para mostrar información de links, horarios de atención, direcciones de sedes, información de contacto, etc.
+
+- Consultas sencillas a servicios web externos
+
+- Solicitud de información a los usuarios ya sea para consultas a servicios web externos o para dejar un registro interno de los datos
+
+- Posibilidad de tener menú con opciones, o no tener menú y hacer la asignación de un agente directamente
+
+- Configuración de menús de 1, 2 y 3 niveles
+
+- Encabezados personalizados por cada submenú en los menús de varios niveles
+
+- Mensaje general y/o personalizado por opción del menú cuando se asigna un agente al chat
+
+- Posibilidad de devolverse al menú anterior
+
+- Recordatorios opcionales al usuario para que seleccione alguna opción del menú cuando ha pasado más de cierto tiempo
+
+- Resolución automática de chats cuando el usuario no selecciona ninguna opción del menú después de cierto tiempo
+
+- Opciones al terminar una consulta en el menú, que permite ver de nuevo el menú, hablar con un asesor o finalizar la conversación
+
+- Mensaje opcional de despedida cuando se termina una consulta en el menú
+
+- Posibilidad de tener una frase especial a la cual se responde con la asignación del chat a un agente, por ejemplo, si se presenta un link para hacer un pedido y luego se retorna al chat con la información del pedido
+
+- Solicitud al usuario de consentimiento para ser contactado a través de WhatsApp antes de presentarle el menú de opciones. En Gupshup también se almacena la información si es el caso.
+
+
+
+
+## Gestión de chats:
+- Monitoreo de los chats en tiempo real
+
+- Los chats entrantes cuando no hay agentes disponibles se dejan en espera para ser asignados tan pronto como se conecta un agente
+
+- Opción para iniciar una conversación con un cliente por medio de plantillas aprobadas en la api oficial o con un texto libre en la api no oficial
+
+- Interfaz para el uso de respuestas rápidas que facilitan la reutilización de frases comúnmente enviadas en los chats
+
+- Clasificación de plantillas y respuestas rápidas, y posibilidad de filtrar por categoría, y buscar por nombre, título o texto
+
+- Opción configurable para manejo de chat cuando el agente asignado no está en línea:
+
+- No hacer nada
+
+- Transferencia automática a otro agente de la misma área
+
+- Menú para que el usuario decida si desea ser transferido o si desea ver el menú y elegir otra opción
+
+- Notas privadas en los chats para agregar información interna que sólo puede ver el agente y el supervisor
+
+- Posibilidad de tener chats entre agentes para tener conversaciones internas
+
+- Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo no oficial)
+
+- Posibilidad de manejar varios números de WhatsApp
+
+
+
+
+## Gestión de clientes:
+- Creación y modificación de información básica del cliente
+
+- Administración de permiso de consentimiento para contacto a través de WhatsApp
+
+- Interfaz para almacenar masivamente el permiso de consentimiento para contacto a través de WhatsApp, por medio de un archivo con el listado de contactos
+
+
+## Gestión de agentes:
+- Interfaz de administración de agentes (creación y modificación)
+
+- Posibilidad de crear una cantidad limitada de agentes y un límite independiente de agentes con sesiones activas
+
+
+## Interfaz web:
+- Interfaz web diferenciada para el agente y el supervisor
+
+- Notificaciones de mensajes nuevos en la interfaz web
+
+- Temas claro y oscuro disponibles en la interfaz web
+
+- Color de fondo en los mensajes diferenciado para cada integrante del chat
+
+- Logo personalizable en las páginas de inicio del agente y del supervisor
+
+- Posibilidad de poner nombre personalizado a los chats
+
+- Búsqueda de chats por número telefónico y por nombre del usuario si está disponible
+
+- Dashboard de reportes generales, por sala y por agentes, y detalle de chats en cada categoría
+
+- Plataforma en inglés y español
+
+
+
+
+## Reportes:
+- Chats pendientes: chats en los que el cliente está a la espera de respuesta por parte del agente
+
+- Chats en seguimiento: chats no resueltos, respondidos por un agente, a la espera de respuesta por parte del cliente
+
+- Chats abiertos: chats no resueltos, sin agente asignado. Normalmente son chats en los que el cliente no ha seleccionado ninguna opción del menú
+
+- Chats nuevos: chats entrantes de nuevos números telefónicos consultados entre dos fechas
+
+- Chats resueltos: chats marcados como resueltos por parte del agente o supervisor entre dos fechas.
+
+- Para cada una de las categorías se muestra el total y se permite ver el listado detallado de chats
