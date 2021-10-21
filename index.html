@@ -50,10 +50,6 @@
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href=".">About</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#commands">Commands</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#project-layout">Project layout</a>
-    </li>
     </ul>
                     </li>
                 </ul>
@@ -90,21 +86,207 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <h2 id="colas-de-atencion">Colas de atención:</h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>
+<p>Agentes distribuidos en colas de atención</p>
+</li>
+<li>
+<p>Administración de las colas de atención: creación de colas y modificación de membresías</p>
+</li>
+<li>
+<p>Segmentación de clientes por medio de un menú de opciones que representan las colas de atención</p>
+</li>
+<li>
+<p>Asignación automática de chats entre los agentes conectados, con estrategia por turnos</p>
+</li>
+<li>
+<p>Transferencia de chats entre agentes y entre colas de atención</p>
+</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<h2 id="contenido-de-los-chats">Contenido de los chats:</h2>
+<ul>
+<li>
+<p>Envío y recepción de imágenes, videos, emojis, PDF, documentos de Office y notas de voz</p>
+</li>
+<li>
+<p>Se conserva el historial de la conversación sin importar el cambio de estado del chat, ni cuantas veces sea reasignado.</p>
+</li>
+<li>
+<p>Historial de archivos enviados y recibidos en el chat</p>
+</li>
+<li>
+<p>El agente puede citar mensajes del cliente al enviarle una respuesta (sólo API no oficial)</p>
+</li>
+<li>
+<p>El agente recibe mensajes citados por el cliente (en las dos APIs)</p>
+</li>
+</ul>
+<h2 id="menu-de-opciones">Menú de opciones:</h2>
+<ul>
+<li>
+<p>Tipos de opciones del menú:</p>
+</li>
+<li>
+<p>Selección de colas de atención para hablar con un agente</p>
+</li>
+<li>
+<p>Mensajes de texto para mostrar información de links, horarios de atención, direcciones de sedes, información de contacto, etc.</p>
+</li>
+<li>
+<p>Consultas sencillas a servicios web externos</p>
+</li>
+<li>
+<p>Solicitud de información a los usuarios ya sea para consultas a servicios web externos o para dejar un registro interno de los datos</p>
+</li>
+<li>
+<p>Posibilidad de tener menú con opciones, o no tener menú y hacer la asignación de un agente directamente</p>
+</li>
+<li>
+<p>Configuración de menús de 1, 2 y 3 niveles</p>
+</li>
+<li>
+<p>Encabezados personalizados por cada submenú en los menús de varios niveles</p>
+</li>
+<li>
+<p>Mensaje general y/o personalizado por opción del menú cuando se asigna un agente al chat</p>
+</li>
+<li>
+<p>Posibilidad de devolverse al menú anterior</p>
+</li>
+<li>
+<p>Recordatorios opcionales al usuario para que seleccione alguna opción del menú cuando ha pasado más de cierto tiempo</p>
+</li>
+<li>
+<p>Resolución automática de chats cuando el usuario no selecciona ninguna opción del menú después de cierto tiempo</p>
+</li>
+<li>
+<p>Opciones al terminar una consulta en el menú, que permite ver de nuevo el menú, hablar con un asesor o finalizar la conversación</p>
+</li>
+<li>
+<p>Mensaje opcional de despedida cuando se termina una consulta en el menú</p>
+</li>
+<li>
+<p>Posibilidad de tener una frase especial a la cual se responde con la asignación del chat a un agente, por ejemplo, si se presenta un link para hacer un pedido y luego se retorna al chat con la información del pedido</p>
+</li>
+<li>
+<p>Solicitud al usuario de consentimiento para ser contactado a través de WhatsApp antes de presentarle el menú de opciones. En Gupshup también se almacena la información si es el caso.</p>
+</li>
+</ul>
+<h2 id="gestion-de-chats">Gestión de chats:</h2>
+<ul>
+<li>
+<p>Monitoreo de los chats en tiempo real</p>
+</li>
+<li>
+<p>Los chats entrantes cuando no hay agentes disponibles se dejan en espera para ser asignados tan pronto como se conecta un agente</p>
+</li>
+<li>
+<p>Opción para iniciar una conversación con un cliente por medio de plantillas aprobadas en la api oficial o con un texto libre en la api no oficial</p>
+</li>
+<li>
+<p>Interfaz para el uso de respuestas rápidas que facilitan la reutilización de frases comúnmente enviadas en los chats</p>
+</li>
+<li>
+<p>Clasificación de plantillas y respuestas rápidas, y posibilidad de filtrar por categoría, y buscar por nombre, título o texto</p>
+</li>
+<li>
+<p>Opción configurable para manejo de chat cuando el agente asignado no está en línea:</p>
+</li>
+<li>
+<p>No hacer nada</p>
+</li>
+<li>
+<p>Transferencia automática a otro agente de la misma área</p>
+</li>
+<li>
+<p>Menú para que el usuario decida si desea ser transferido o si desea ver el menú y elegir otra opción</p>
+</li>
+<li>
+<p>Notas privadas en los chats para agregar información interna que sólo puede ver el agente y el supervisor</p>
+</li>
+<li>
+<p>Posibilidad de tener chats entre agentes para tener conversaciones internas</p>
+</li>
+<li>
+<p>Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo no oficial)</p>
+</li>
+<li>
+<p>Posibilidad de manejar varios números de WhatsApp</p>
+</li>
+</ul>
+<h2 id="gestion-de-clientes">Gestión de clientes:</h2>
+<ul>
+<li>
+<p>Creación y modificación de información básica del cliente</p>
+</li>
+<li>
+<p>Administración de permiso de consentimiento para contacto a través de WhatsApp</p>
+</li>
+<li>
+<p>Interfaz para almacenar masivamente el permiso de consentimiento para contacto a través de WhatsApp, por medio de un archivo con el listado de contactos</p>
+</li>
+</ul>
+<h2 id="gestion-de-agentes">Gestión de agentes:</h2>
+<ul>
+<li>
+<p>Interfaz de administración de agentes (creación y modificación)</p>
+</li>
+<li>
+<p>Posibilidad de crear una cantidad limitada de agentes y un límite independiente de agentes con sesiones activas</p>
+</li>
+</ul>
+<h2 id="interfaz-web">Interfaz web:</h2>
+<ul>
+<li>
+<p>Interfaz web diferenciada para el agente y el supervisor</p>
+</li>
+<li>
+<p>Notificaciones de mensajes nuevos en la interfaz web</p>
+</li>
+<li>
+<p>Temas claro y oscuro disponibles en la interfaz web</p>
+</li>
+<li>
+<p>Color de fondo en los mensajes diferenciado para cada integrante del chat</p>
+</li>
+<li>
+<p>Logo personalizable en las páginas de inicio del agente y del supervisor</p>
+</li>
+<li>
+<p>Posibilidad de poner nombre personalizado a los chats</p>
+</li>
+<li>
+<p>Búsqueda de chats por número telefónico y por nombre del usuario si está disponible</p>
+</li>
+<li>
+<p>Dashboard de reportes generales, por sala y por agentes, y detalle de chats en cada categoría</p>
+</li>
+<li>
+<p>Plataforma en inglés y español</p>
+</li>
+</ul>
+<h2 id="reportes">Reportes:</h2>
+<ul>
+<li>
+<p>Chats pendientes: chats en los que el cliente está a la espera de respuesta por parte del agente</p>
+</li>
+<li>
+<p>Chats en seguimiento: chats no resueltos, respondidos por un agente, a la espera de respuesta por parte del cliente</p>
+</li>
+<li>
+<p>Chats abiertos: chats no resueltos, sin agente asignado. Normalmente son chats en los que el cliente no ha seleccionado ninguna opción del menú</p>
+</li>
+<li>
+<p>Chats nuevos: chats entrantes de nuevos números telefónicos consultados entre dos fechas</p>
+</li>
+<li>
+<p>Chats resueltos: chats marcados como resueltos por parte del agente o supervisor entre dos fechas.</p>
+</li>
+<li>
+<p>Para cada una de las categorías se muestra el total y se permite ver el listado detallado de chats</p>
+</li>
+</ul>
               
             </div>
           </div>
@@ -150,5 +332,5 @@ docs/
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2021-10-20 23:58:34.038721+00:00
+Build Date UTC : 2021-10-21 00:01:02.440482+00:00
 -->
