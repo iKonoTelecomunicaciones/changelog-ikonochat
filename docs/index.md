@@ -22,15 +22,15 @@
 ## **Menú de opciones**
 
 
-Tipos de opciones del menú:
+- Tipos de opciones del menú:
 
-- Selección de colas de atención para hablar con un agente.
+	- Selección de colas de atención para hablar con un agente.
 
-- Mensajes de texto para mostrar información de links, horarios de atención, direcciones de sedes, información de contacto, etc.
+	- Mensajes de texto para mostrar información de links, horarios de atención, direcciones de sedes, información de contacto, etc.
 
-- Consultas sencillas a servicios web externos.
+	- Consultas sencillas a servicios web externos.
 
-- Solicitud de información a los usuarios ya sea para consultas a servicios web externos o para dejar un registro interno de los datos.
+	- Solicitud de información a los usuarios ya sea para consultas a servicios web externos o para dejar un registro interno de los datos.
 
 - Posibilidad de tener menú con opciones, o no tener menú y hacer la asignación de un agente directamente.
 
