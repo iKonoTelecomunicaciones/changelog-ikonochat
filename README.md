@@ -26,4 +26,4 @@ Despliegue el proyecto:
 
     mkdocs gh-deploy
 
-**Nota:** Puede revisar la carpeta [help](https://github.com/iKonoChat/changelog-ikonochat/tree/main/help), aquí encontrara un pdf con ejemplos, tambien puede encontrar ejemplos en [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
+**Nota:** Puede revisar la carpeta [help](https://github.com/iKonoChat/changelog-ikonochat/tree/main/help), aquí encontrara un PDF con ejemplos, tambien puede encontrar ejemplos en [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
