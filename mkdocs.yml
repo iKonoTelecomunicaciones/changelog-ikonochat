@@ -7,11 +7,16 @@ nav:
   - Caracteristicas: index.md
 
 theme:
+  favicon: assets/images/favicon.png
   name: material
+  logo: assets/logo.png
+  features:
+    - toc.integrate
+  language: es
   palette:
     - media: "(prefers-color-scheme: light)"
 
-      scheme: default
+      scheme: ikono
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -21,4 +26,7 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
+
 
