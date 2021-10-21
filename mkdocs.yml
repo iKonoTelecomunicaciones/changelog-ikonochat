@@ -1,10 +1,10 @@
-site_name: Caracteristicas de iKono Chat
+site_name: Característica de iKono Chat
 site_url: https://iKonoChat.github.io
 site_author: Alejandro Herrera
 site_description: a short description of your website
 
 nav:
-  - Caracteristicas: index.md
+  - Característica: index.md
 
 theme:
   favicon: assets/images/favicon.png
