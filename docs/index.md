@@ -110,4 +110,4 @@
 - **Chats resueltos:** Chats marcados como resueltos por parte del agente o supervisor entre dos fechas.
 - Para cada una de las categorías se muestra el total y se permite ver el listado detallado de chats.
 - Se puede monitorear el estado del bridge no oficial.
-- Nueva pagina que almacenara todas las características de iKono Chat y su nuevos cambios.
+- Se tiene una pagina que almacena todas las características de iKono Chat y su nuevos cambios.
