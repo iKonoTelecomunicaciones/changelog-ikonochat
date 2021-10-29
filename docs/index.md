@@ -54,6 +54,8 @@
 
 - Solicitud al usuario de consentimiento para ser contactado a través de WhatsApp antes de presentarle el menú de opciones. En Gupshup también se almacena la información si es el caso.
 
+- Los bots pueden reaccionar ante envío de stickers.
+
 
 ## **Gestión de chats**
 
@@ -96,6 +98,7 @@
 - Búsqueda de chats por número telefónico y por nombre del usuario si está disponible.
 - Dashboard de reportes generales, por sala y por agentes, y detalle de chats en cada categoría.
 - Plataforma en inglés y español.
+- El agente puede elegir por cual numero quiere contactar a un cliente.
 
 
 ## **Reportes**
@@ -106,3 +109,5 @@
 - **Chats nuevos:** Chats entrantes de nuevos números telefónicos consultados entre dos fechas.
 - **Chats resueltos:** Chats marcados como resueltos por parte del agente o supervisor entre dos fechas.
 - Para cada una de las categorías se muestra el total y se permite ver el listado detallado de chats.
+- Se puede monitorear el estado del bridge no oficial.
+- Nueva pagina que almacenara todas las características de iKono Chat y su nuevos cambios.
