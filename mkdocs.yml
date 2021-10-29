@@ -5,6 +5,7 @@ site_description: En esta página web encontrarás más información relacionada
 
 nav:
   - Características: index.md
+  - Changelog: changelog.md
 
 theme:
   favicon: assets/images/favicon.png
