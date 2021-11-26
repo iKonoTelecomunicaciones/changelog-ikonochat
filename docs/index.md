@@ -99,7 +99,7 @@
 - Dashboard de reportes generales, por sala y por agentes, y detalle de chats en cada categoría.
 - Plataforma en inglés y español.
 - El agente puede elegir por cual numero quiere contactar a un cliente.
-
+- Supervisor y agente pueden agregar tags a un chat para clasificar las conversaciones.
 
 ## **Reportes**
 
@@ -111,3 +111,9 @@
 - Para cada una de las categorías se muestra el total y se permite ver el listado detallado de chats.
 - Se puede monitorear el estado del bridge no oficial.
 - Se tiene una pagina que almacena todas las características de iKono Chat y su nuevos cambios.
+
+## **Bridge**
+
+- Se tiene soporte con la API oficial de **Gupshup** para la comunicación con WhatsApp.
+- Se tiene soporte con la API no oficial WhatsApp multidevice.
+- Se tiene soporte con la API oficial de **Twilio** para la comunicación con WhatsApp.
