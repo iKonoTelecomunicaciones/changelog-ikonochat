@@ -72,7 +72,7 @@
 - Posibilidad de tener chats entre agentes para tener conversaciones internas.
 - Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo no oficial)
 - Posibilidad de manejar varios números de WhatsApp.
-
+- Posibilidad de conocer cuantos chats entrantes tiene cada agente.
 
 ## **Gestión de clientes**
 
@@ -105,15 +105,18 @@
 
 - **Chats pendientes:** Chats en los que el cliente está a la espera de respuesta por parte del agente.
 - **Chats en seguimiento**: Chats no resueltos, respondidos por un agente, a la espera de respuesta por parte del cliente.
+- **Chats entrantes por agente**: Chats entrantes por agente en la tabla de reportes por agente.
 - **Chats abiertos:** Chats no resueltos, sin agente asignado. Normalmente son chats en los que el cliente no ha seleccionado ninguna opción del menú.
 - **Chats nuevos:** Chats entrantes de nuevos números telefónicos consultados entre dos fechas.
 - **Chats resueltos:** Chats marcados como resueltos por parte del agente o supervisor entre dos fechas.
 - Para cada una de las categorías se muestra el total y se permite ver el listado detallado de chats.
 - Se puede monitorear el estado del bridge no oficial.
-- Se tiene una pagina que almacena todas las características de iKono Chat y su nuevos cambios.
+- Se tiene una pagina que almacena todas las características de `iKono Chat` y su nuevos cambios.
 
 ## **Bridge**
 
 - Se tiene soporte con la API oficial de **Gupshup** para la comunicación con WhatsApp.
-- Se tiene soporte con la API no oficial WhatsApp multidevice.
+- Se tiene soporte con la API no oficial **WhatsApp** multi dispositivo.
 - Se tiene soporte con la API oficial de **Twilio** para la comunicación con WhatsApp.
+- Se tiene soporte con **Instagram** para envio y recepción de chats a través de la plataforma de `iKono Chat`.
+- Ahora la `API sender` funciona con la versión multi dispositivo de **WhatsApp**.
