@@ -21,4 +21,4 @@
 - Ahora los bots podrán reaccionar ante envío de stickers.
 - Se agrega una nueva herramienta para monitorear el estado del bridge no oficial.
 - El agente ahora podrá elegir por cual número quiere contactar a un cliente.
-- Se crea nueva página que almacenará todas las características de `iKono Chat` y su nuevos cambios.
+- Se crea nueva página que almacenará todas las características de `iKono Chat` y sus nuevos cambios.

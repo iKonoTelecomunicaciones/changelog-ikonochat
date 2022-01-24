@@ -105,13 +105,15 @@
 
 - **Chats pendientes:** Chats en los que el cliente está a la espera de respuesta por parte del agente.
 - **Chats en seguimiento**: Chats no resueltos, respondidos por un agente, a la espera de respuesta por parte del cliente.
-- **Chats entrantes por agente**: Chats entrantes por agente en la tabla de reportes por agente.
 - **Chats abiertos:** Chats no resueltos, sin agente asignado. Normalmente son chats en los que el cliente no ha seleccionado ninguna opción del menú.
 - **Chats nuevos:** Chats entrantes de nuevos números telefónicos consultados entre dos fechas.
 - **Chats resueltos:** Chats marcados como resueltos por parte del agente o supervisor entre dos fechas.
 - Para cada una de las categorías se muestra el total y se permite ver el listado detallado de chats.
 - Se puede monitorear el estado del bridge no oficial.
 - Se tiene una pagina que almacena todas las características de `iKono Chat` y su nuevos cambios.
+- Tabla de agentes con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los
+chats resueltos y chats entrantes por agente, en un rango de fechas.
+- Tabla de opciones del menú con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos y chats entrantes por opción del menú, en un rango de fechas.
 
 ## **Bridge**
 
