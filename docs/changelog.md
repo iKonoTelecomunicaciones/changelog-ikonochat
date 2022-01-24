@@ -2,7 +2,7 @@
 
 ### **[ 2022 - 01 - 14 ]**
 
-- Envio y recepción de chats de Instagram a través de la plataforma de `iKono Chat`.
+- Envío y recepción de chats de Instagram a través de la plataforma de `iKono Chat`.
 - Se corrige inconveniente con el certificado SSL de las URLs de acceso para supervisor y agente, creando un certificado global que facilita la administración de la seguridad.
 - Se agrega la columna de chats entrantes por agente a la tabla de reportes por agente.
 - Ahora la `API sender` funciona con la versión multi dispositivo de WhatsApp.

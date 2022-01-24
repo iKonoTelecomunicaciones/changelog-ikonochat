@@ -118,5 +118,5 @@
 - Se tiene soporte con la API oficial de **Gupshup** para la comunicación con WhatsApp.
 - Se tiene soporte con la API no oficial **WhatsApp** multi dispositivo.
 - Se tiene soporte con la API oficial de **Twilio** para la comunicación con WhatsApp.
-- Se tiene soporte con **Instagram** para envio y recepción de chats a través de la plataforma de `iKono Chat`.
-- Ahora la `API sender` funciona con la versión multi dispositivo de **WhatsApp**.
+- Se tiene soporte con **Instagram** para envío y recepción de chats a través de la plataforma de `iKono Chat`.
+- El servicio `API sender` funciona con la versión multi dispositivo de **WhatsApp**.
