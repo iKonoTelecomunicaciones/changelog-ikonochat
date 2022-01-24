@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-GH_PAGE := ikonochat.github.io
+GH_PAGE := ikonotelecomunicaciones.github.io
 
 .PHONY: deploy
 deploy:
