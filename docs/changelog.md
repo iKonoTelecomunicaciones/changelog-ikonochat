@@ -2,10 +2,11 @@
 
 ### **[ 2022 - 01 - 28 ]**
 
-- Se ajusta la plataforma para que agentes no puedan acceder a la interfaz del supervisor con los nuevos dominios.
-- Envío y recepción de videos desde la aplicación.
-- Se ajusta la plataforma para guardar clientes y Optin.
+- Envío y recepción de videos desde la aplicación móvil.
+- Se habilita la administración del consentimiento de contacto a través de WhatsApp por cada número que tenga la empresa y no globalmente.
 - Se eliminan idiomas de los cuales no tenemos soporte en la plataforma `iKono Chat` -> tenemos **inglés** y **español**.
+- Se agrega la columna de tiempo promedio de respuesta por agente a la tabla de reportes por agente.
+- Se agrega un proceso automático de copias diarias de las bases de datos de la plataforma `iKono Chat`.
 - Ahora la `API Sender` puede notificar si un número no existe en WhatsApp.
 - Ahora `iKono Chat` notifica al agente si un número no existe en WhatsApp al iniciar una conversación.
 
