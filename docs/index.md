@@ -121,4 +121,4 @@ chats resueltos y chats entrantes por agente, en un rango de fechas.
 - Se tiene soporte con la API no oficial **WhatsApp** multi dispositivo.
 - Se tiene soporte con la API oficial de **Twilio** para la comunicación con WhatsApp.
 - Se tiene soporte con **Instagram** para envío y recepción de chats a través de la plataforma de `iKono Chat`.
-- El servicio `API sender` funciona con la versión multi dispositivo de **WhatsApp**.
+- El servicio `API Sender` funciona con la versión multi dispositivo de **WhatsApp**.
