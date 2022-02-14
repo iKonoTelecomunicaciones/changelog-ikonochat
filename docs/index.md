@@ -135,4 +135,4 @@ chats resueltos, chats entrantes y tiempo promedio de respuesta por agente, en u
 
 ## **Integraciones**
 
-- `Widget iKono Chat`: Permite insertar una sala por donde usuarios pueden hablar con un chatbot o un agente.
+- `Widget iKono Chat`: Permite insertar una sala donde usuarios pueden hablar con un chatbot o un agente.
