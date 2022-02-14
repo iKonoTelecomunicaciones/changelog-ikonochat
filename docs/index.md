@@ -125,8 +125,8 @@ chats resueltos, chats entrantes y tiempo promedio de respuesta por agente, en u
 ## **APIs**
 - ### API Sender
     - Funciona con la versión multi dispositivo de **WhatsApp**.
-    - Se pueden enviar mensajes de texto mediante WhatsApp usando 1 usuario registrado en la plataforma `iKono Chat`.
-- ### WhaKi
+    - Se pueden enviar mensajes de texto mediante WhatsApp usando un usuario registrado en la plataforma `iKono Chat`.
+- ### WAPI
     - Se pueden crear usuarios utilizando el correo electrónico.
     - Permite a cada usuario iniciar sesión con su número personal o de empresa en la API web de WhatsApp solicitando un código QR.
     - Permite a cada usuario cerrar sesión con WhatsApp e iniciar sesión con otro número.

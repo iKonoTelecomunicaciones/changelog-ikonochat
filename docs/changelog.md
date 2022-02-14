@@ -2,8 +2,8 @@
 
 ### **[ 2022 - 02 - 11 ]**
 
-- Nuevo servicio API (`WhaKi`) que expone un recurso web para hacer login y logout a través de WhatsApp.
-- `WhaKi` permite crear sesiones con WhatsApp solo con el correo electrónico del usuario.
+- Nuevo servicio API (`WAPI`) que expone un recurso web para hacer login y logout a través de WhatsApp.
+- `WAPI` permite crear sesiones con WhatsApp solo con el correo electrónico del usuario.
 - Nueva integración -> `Widget iKono Chat` que permite a invitados escribir en una sala de `iKono Chat`, esta sala puede tener un chatbot o agentes dentro.
 - El supervisor ahora puede ejecutar comandos de los bridges.
 - *Corrección:* Se corrige el mensaje de que no se reciben llamadas por WhatsApp.
