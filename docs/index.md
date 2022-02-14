@@ -121,4 +121,18 @@ chats resueltos, chats entrantes y tiempo promedio de respuesta por agente, en u
 - Se tiene soporte con la API no oficial **WhatsApp** multi dispositivo.
 - Se tiene soporte con la API oficial de **Twilio** para la comunicación con WhatsApp.
 - Se tiene soporte con **Instagram** para envío y recepción de chats a través de la plataforma de `iKono Chat`.
-- El servicio `API Sender` funciona con la versión multi dispositivo de **WhatsApp**.
+
+## **APIs**
+- ### API Sender
+    - Funciona con la versión multi dispositivo de **WhatsApp**.
+    - Se pueden enviar mensajes de texto mediante WhatsApp usando un usuario registrado en la plataforma `iKono Chat`.
+- ### WAPI
+    - Se pueden crear usuarios utilizando el correo electrónico.
+    - Permite a cada usuario iniciar sesión con su número personal o de empresa en la API web de WhatsApp solicitando un código QR.
+    - Permite a cada usuario cerrar sesión con WhatsApp e iniciar sesión con otro número.
+    - No hay límite en la cantidad de usuarios.
+    - Funciona con la versión multi dispositivo de **WhatsApp**.
+
+## **Integraciones**
+
+- `Widget iKono Chat`: Permite insertar una sala donde usuarios pueden hablar con un chatbot o un agente.
