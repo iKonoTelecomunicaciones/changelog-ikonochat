@@ -17,6 +17,8 @@
 - Historial de archivos enviados y recibidos en el chat.
 - El agente puede citar mensajes del cliente al enviarle una respuesta (sólo `API` no oficial)
 - El agente recibe mensajes citados por el cliente (en las dos `APIs`)
+- Se puede compartir la ubicación y visualizar la ubicación enviada por un cliente.
+- Menús con botones.
 
 
 ## **Menú de opciones**
@@ -55,6 +57,7 @@
 - Solicitud al usuario de consentimiento para ser contactado a través de WhatsApp antes de presentarle el menú de opciones. En Gupshup también se almacena la información si es el caso.
 
 - Los bots pueden reaccionar ante envío de stickers.
+- Se pueden construir menús con botones.
 
 
 ## **Gestión de chats**
@@ -73,6 +76,9 @@
 - Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo no oficial)
 - Posibilidad de manejar varios números de WhatsApp.
 - Posibilidad de conocer cuantos chats entrantes tiene cada agente.
+- El menubot se detiene y reanuda con una frase clave.
+- El chat es resuelto automáticamente cuando el usuario seleciona una opción que solo muestra un texto
+o que consulta un recurso web.
 
 ## **Gestión de clientes**
 
@@ -100,6 +106,7 @@
 - Plataforma en inglés y español.
 - El agente puede elegir por cual numero quiere contactar a un cliente.
 - Supervisor y agente pueden agregar tags a un chat para clasificar las conversaciones.
+- Interfaz de administración de plantillas.
 
 ## **Reportes**
 
@@ -111,8 +118,7 @@
 - Para cada una de las categorías se muestra el total y se permite ver el listado detallado de chats.
 - Se puede monitorear el estado del bridge no oficial.
 - Se tiene una pagina que almacena todas las características de `iKono Chat` y sus nuevos cambios.
-- Tabla de agentes con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los
-chats resueltos, chats entrantes y tiempo promedio de respuesta por agente, en un rango de fechas.
+- Tabla de agentes con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos, chats entrantes y tiempo promedio de respuesta por agente, en un rango de fechas.
 - Tabla de opciones del menú con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos y chats entrantes por opción del menú, en un rango de fechas.
 
 ## **Bridge**

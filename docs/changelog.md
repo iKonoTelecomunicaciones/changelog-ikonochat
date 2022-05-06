@@ -1,3 +1,17 @@
+  ---
+
+### **[ 2022 - 05 - 06 ]**
+
+- El menubot se detiene y reanuda con una frase clave.
+- El chat es resuelto automáticamente cuando el usuario seleciona una opción que solo muestra un texto
+o que consulta un recurso web.
+- La API de WhatsApp Business con el BSP Gupshup soporta mensajes con botones. Ahora se pueden construir menús con botones.
+- Actualización de la interfaz web para incorporar los cambios del motor de chat original. Se unifican los estilos en todos los niveles de la plataforma.
+- Ahora se puede compartir la ubicación y visualizar la ubicación enviada por un cliente.
+- Creación de una interfaz de administración de plantillas.
+- Optimización de la implementación de clientes nuevos.
+- Se agrega nueva columna a todos los reportes para mostrar el número telefónico del contacto.
+
  ---
 
 ### **[ 2022 - 02 - 11 ]**
