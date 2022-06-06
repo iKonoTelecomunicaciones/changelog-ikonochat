@@ -6,6 +6,7 @@
 - Directorio de clientes al iniciar una conversación por parte del agente, para los casos en los que no está disponible el número telefónico.
 - En los chats se puede ocultar toda la información de eventos de invitaciones, entradas y salidas, cambio de nombre y cambio de avatar, para que sólo se vean los mensajes.
 - Se corrige bug que permitia a los agentes entrar en la interfaz de supervisor.
+- El `Widget iKono Chat` ahora permite chats con agentes o sin agentes y la sesión de un cliente se preserva por x cantidad de tiempo configurable.
 
   ---
 
@@ -20,7 +21,6 @@ o que consulta un recurso web.
 - Creación de una interfaz de administración de plantillas.
 - Optimización de la implementación de clientes nuevos.
 - Se agrega nueva columna a todos los reportes para mostrar el número telefónico del contacto.
-- El `Widget iKono Chat` ahora permite chats con agentes o sin agentes y la sesión de un cliente se preserva por x cantidad de tiempo configurable.
  ---
 
 ### **[ 2022 - 02 - 11 ]**
