@@ -79,6 +79,7 @@
 - El menubot se detiene y reanuda con una frase clave.
 - El chat es resuelto automáticamente cuando el usuario seleciona una opción que solo muestra un texto
 o que consulta un recurso web.
+- Directorio de clientes al iniciar una conversación por parte del agente, para los casos en los que no está disponible el número telefónico.
 
 ## **Gestión de clientes**
 
@@ -106,7 +107,8 @@ o que consulta un recurso web.
 - Plataforma en inglés y español.
 - El agente puede elegir por cual numero quiere contactar a un cliente.
 - Supervisor y agente pueden agregar tags a un chat para clasificar las conversaciones.
-- Interfaz de administración de plantillas.
+- Interfaz de administración de plantillas y de gestión de aprobación de las mismas por parte de Facebook.
+- Opción para mostrar u ocultar toda la información de eventos de invitaciones, entradas y salidas, cambio de nombre y cambio de avatar, para que sólo se vean los mensajes en los chats.
 
 ## **Reportes**
 

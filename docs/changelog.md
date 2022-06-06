@@ -1,5 +1,14 @@
   ---
 
+### **[ 2022 - 06 - 06 ]**
+- Interfaz mejorada de creación de plantillas, con funcionalidad de solicitud de aprobación de plantillas a Facebook para la API Business y creación de categorías por empresa.
+- Corrección de bug de filtro de plantillas en algunos clientes en los que está fallando.
+- Directorio de clientes al iniciar una conversación por parte del agente, para los casos en los que no está disponible el número telefónico.
+- En los chats se puede ocultar toda la información de eventos de invitaciones, entradas y salidas, cambio de nombre y cambio de avatar, para que sólo se vean los mensajes.
+- Se corrige bug que permitia a los agentes entrar en la interfaz de supervisor.
+
+  ---
+
 ### **[ 2022 - 05 - 06 ]**
 
 - El menubot se detiene y reanuda con una frase clave.
