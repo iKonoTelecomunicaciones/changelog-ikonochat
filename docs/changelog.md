@@ -20,7 +20,7 @@ o que consulta un recurso web.
 - Creación de una interfaz de administración de plantillas.
 - Optimización de la implementación de clientes nuevos.
 - Se agrega nueva columna a todos los reportes para mostrar el número telefónico del contacto.
-
+- El `Widget iKono Chat` ahora permite chats con agentes o sin agentes y la sesión de un cliente se preserva por x cantidad de tiempo configurable.
  ---
 
 ### **[ 2022 - 02 - 11 ]**
