@@ -80,6 +80,7 @@
 - El chat es resuelto automáticamente cuando el usuario seleciona una opción que solo muestra un texto
 o que consulta un recurso web.
 - Directorio de clientes al iniciar una conversación por parte del agente, para los casos en los que no está disponible el número telefónico.
+-Implementación de menejo especial cuando un usuario escribe al chat por fuera de los horarios de atención.
 
 ## **Gestión de clientes**
 
@@ -122,6 +123,7 @@ o que consulta un recurso web.
 - Se tiene una pagina que almacena todas las características de `iKono Chat` y sus nuevos cambios.
 - Tabla de agentes con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos, chats entrantes y tiempo promedio de respuesta por agente, en un rango de fechas.
 - Tabla de opciones del menú con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos y chats entrantes por opción del menú, en un rango de fechas.
+- Dashboard para que el agente pueda ver la información de sus chats.
 
 ## **Bridge**
 
@@ -144,3 +146,4 @@ o que consulta un recurso web.
 ## **Integraciones**
 
 - `Widget iKono Chat`: Permite insertar una sala donde usuarios pueden hablar con un chatbot o un agente.
+- Creación de aplicación de escritorio de `iKono Chat`.
