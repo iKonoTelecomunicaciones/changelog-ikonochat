@@ -80,7 +80,7 @@
 - El chat es resuelto automáticamente cuando el usuario seleciona una opción que solo muestra un texto
 o que consulta un recurso web.
 - Directorio de clientes al iniciar una conversación por parte del agente, para los casos en los que no está disponible el número telefónico.
--Implementación de menejo especial cuando un usuario escribe al chat por fuera de los horarios de atención.
+- Implementación de manejo especial cuando un usuario escribe al chat por fuera de los horarios de atención.
 
 ## **Gestión de clientes**
 

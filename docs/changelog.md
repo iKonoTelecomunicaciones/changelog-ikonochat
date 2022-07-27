@@ -1,7 +1,7 @@
   ---
 
 ### **[ 2022 - 07 - 27 ]**
-- Implementación de menejo especial cuando un usuario escribe al chat por fuera de los horarios de atención.
+- Implementación de manejo especial cuando un usuario escribe al chat por fuera de los horarios de atención.
 - Creación de aplicación de escritorio de iKono Chat.
 - Dashboard para que el agente pueda ver la información de sus chats.
 
