@@ -1,5 +1,12 @@
   ---
 
+### **[ 2022 - 07 - 27 ]**
+- Implementación de menejo especial cuando un usuario escribe al chat por fuera de los horarios de atención.
+- Creación de aplicación de escritorio de iKono Chat.
+- Dashboard para que el agente pueda ver la información de sus chats.
+
+  ---
+
 ### **[ 2022 - 06 - 06 ]**
 - Interfaz mejorada de creación de plantillas, con funcionalidad de solicitud de aprobación de plantillas a Facebook para la API Business y creación de categorías por empresa.
 - Corrección de bug de filtro de plantillas en algunos clientes en los que está fallando.
