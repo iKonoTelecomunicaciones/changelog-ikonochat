@@ -1,5 +1,14 @@
   ---
 
+### **[ 2022 - 09 - 08 ]**
+- Notificaciones de desconexión de WhatsApp para impedir errores en el envío y recepción de mensajes.
+- Opción del menú para envío de correos con la respuesta recibida por parte del cliente.
+- Opción del menú para envío de imágenes.
+- Opción para mostrar mensaje de despedida cuando un usuario no acepta optin para no permitirle navegar por el menú.
+- Opción para no guardar optin y mostrarlo siempre que el cliente escribe al chat aunque ya lo haya aceptado.
+
+  ---
+
 ### **[ 2022 - 07 - 27 ]**
 - Implementación de manejo especial cuando un usuario escribe al chat por fuera de los horarios de atención.
 - Creación de aplicación de escritorio de iKono Chat.
