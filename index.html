@@ -16,7 +16,7 @@
         <link rel="canonical" href="https://changelog.ikono.net.co/">
       
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.4">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-7.3.4">
     
     
       
@@ -441,7 +441,7 @@
 </li>
 <li>Notas privadas en los chats para agregar información interna que sólo puede ver el agente y el supervisor.</li>
 <li>Posibilidad de tener chats entre agentes para tener conversaciones internas.</li>
-<li>Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo no oficial)</li>
+<li>Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo no oficial).</li>
 <li>Posibilidad de manejar varios números de WhatsApp.</li>
 <li>Posibilidad de conocer cuantos chats entrantes tiene cada agente.</li>
 <li>El menubot se detiene y reanuda con una frase clave.</li>
@@ -449,12 +449,18 @@
 o que consulta un recurso web.</li>
 <li>Directorio de clientes al iniciar una conversación por parte del agente, para los casos en los que no está disponible el número telefónico.</li>
 <li>Implementación de manejo especial cuando un usuario escribe al chat por fuera de los horarios de atención.</li>
+<li>Resolución de chats en bloque.</li>
+<li>Opción de configuración de las líneas para que los chats entrantes sean repartidos directamente a un agente o a un grupo de agentes.</li>
+<li>Opción para que agentes no puedan editar ni borrar mensajes.</li>
+<li>Interfaz de administración de listas negras para evitar escribir a contactos a los que no esté permitido enviar mensajes.</li>
 </ul>
 <h2 id="gestion-de-clientes"><strong>Gestión de clientes</strong></h2>
 <ul>
 <li>Creación y modificación de información básica del cliente.</li>
 <li>Administración de permiso de consentimiento para contacto a través de WhatsApp.</li>
 <li>Interfaz para almacenar masivamente el permiso de consentimiento para contacto a través de WhatsApp, por medio de un archivo con el listado de contactos.</li>
+<li>Nombre de los chats de WhatsApp puede ser el mismo del contacto guardado en el celular empresarial.</li>
+<li>Opción para asignar un agente o un grupo de agentes específicamente para la atención de un cliente.</li>
 </ul>
 <h2 id="gestion-de-agentes"><strong>Gestión de agentes</strong></h2>
 <ul>
@@ -477,6 +483,7 @@ o que consulta un recurso web.</li>
 <li>Interfaz de administración de plantillas y de gestión de aprobación de las mismas por parte de Facebook.</li>
 <li>Opción para mostrar u ocultar toda la información de eventos de invitaciones, entradas y salidas, cambio de nombre y cambio de avatar, para que sólo se vean los mensajes en los chats.</li>
 <li>Notificaciones de desconexión de WhatsApp para impedir errores en el envío y recepción de mensajes.</li>
+<li>Interfaz de administración de canales de Web WhatsApp, WhatsApp Business e Instagram, que permite vincular y desvincular las líneas.</li>
 </ul>
 <h2 id="reportes"><strong>Reportes</strong></h2>
 <ul>
@@ -581,7 +588,7 @@ o que consulta un recurso web.</li>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["toc.integrate"], "translations": {"clipboard.copy": "Copiar al portapapeles", "clipboard.copied": "Copiado al portapapeles", "search.config.lang": "es", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "B\u00fasqueda", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.term.missing": "Falta", "select.version.title": "Seleccionar versi\u00f3n"}, "search": "assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["toc.integrate"], "search": "assets/javascripts/workers/search.8397ff9e.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.config.lang": "es", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "B\u00fasqueda", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version.title": "Seleccionar versi\u00f3n"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.1e84347e.min.js"></script>
