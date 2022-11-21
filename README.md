@@ -1,29 +1,46 @@
+## Pasos para actualizar el changelog
 
-Para poder trabajar con este proyecto usted deberá instalar los requerimientos:
+- Crear (o ingresar al) entorno virtual:
+```bash
+    mkvirtualenv changelog
+    workon changelog
+```
 
+- Instalar los requerimientos:
+```bash
     pip install -r requirements.txt
+```
 
-Haga sus cambios en el archivo [docs/index.md](https://github.com/iKonoChat/changelog-ikonochat/blob/main/docs/index.md)
+- Hacer los cambios requeridos en [docs/index.md](https://github.com/iKonoChat/changelog-ikonochat/blob/main/docs/index.md) y en
+```bash
+    vim docs/index.md
+    vim docs/changelog.md
+```
 
-Vea sus cambios en su local utilizando:
-
+- Ver los cambios locales:
+```bash
      mkdocs serve
-Cuando termine la edición y quiera subir los cambios haga:
+```
 
-Para construir el proyecto:
-
+- Construir el proyecto:
+```bash
     mkdocs build
+```
 
-Subalos al repositorio:
+- Subir cambios al repositorio:
+```bash
+    git commit -am "Comente sus cambios"
+    git push origin main
+```
 
-    git add -A
-
-    git commit -m "Comente sus cambios"
-
-    git push
-
-Despliegue el proyecto:
-
+- Desplegar el proyecto:
+```bash
     mkdocs gh-deploy
+```
 
-**Nota:** Puede revisar la carpeta [help](https://github.com/iKonoChat/changelog-ikonochat/tree/main/help), aquí encontrara un PDF con ejemplos, tambien puede encontrar ejemplos en [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
+- Verificar que no se hara borrado el dominio yendo a la siguiente ruta en Github:
+```
+    Settings -> Pages -> Custom domain -> https://changelog.ikono.net.co
+```
+
+**Nota:** Puedes revisar la carpeta [help](https://github.com/iKonoChat/changelog-ikonochat/tree/main/help), aquí encontrarás un PDF con ejemplos. También puedes encontrar ejemplos en [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
