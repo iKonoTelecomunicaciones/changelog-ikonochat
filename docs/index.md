@@ -59,7 +59,7 @@
 	- Menú para que el usuario decida si desea ser transferido o si desea ver el menú y elegir otra opción.
 - Notas privadas en los chats para agregar información interna que sólo puede ver el agente y el supervisor.
 - Posibilidad de tener chats entre agentes para tener conversaciones internas.
-- Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo no oficial)
+- Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo no oficial).
 - Posibilidad de manejar varios números de WhatsApp.
 - Posibilidad de conocer cuantos chats entrantes tiene cada agente.
 - El menubot se detiene y reanuda con una frase clave.
@@ -67,12 +67,19 @@
 o que consulta un recurso web.
 - Directorio de clientes al iniciar una conversación por parte del agente, para los casos en los que no está disponible el número telefónico.
 - Implementación de manejo especial cuando un usuario escribe al chat por fuera de los horarios de atención.
+- Resolución de chats en bloque.
+- Opción de configuración de las líneas para que los chats entrantes sean repartidos directamente a un agente o a un grupo de agentes.
+- Opción para que agentes no puedan editar ni borrar mensajes.
+- Interfaz de administración de listas negras para evitar escribir a contactos a los que no esté permitido enviar mensajes.
+
 
 ## **Gestión de clientes**
 
 - Creación y modificación de información básica del cliente.
 - Administración de permiso de consentimiento para contacto a través de WhatsApp.
 - Interfaz para almacenar masivamente el permiso de consentimiento para contacto a través de WhatsApp, por medio de un archivo con el listado de contactos.
+- Nombre de los chats de WhatsApp puede ser el mismo del contacto guardado en el celular empresarial.
+- Opción para asignar un agente o un grupo de agentes específicamente para la atención de un cliente.
 
 
 ## **Gestión de agentes**
@@ -97,6 +104,8 @@ o que consulta un recurso web.
 - Interfaz de administración de plantillas y de gestión de aprobación de las mismas por parte de Facebook.
 - Opción para mostrar u ocultar toda la información de eventos de invitaciones, entradas y salidas, cambio de nombre y cambio de avatar, para que sólo se vean los mensajes en los chats.
 - Notificaciones de desconexión de WhatsApp para impedir errores en el envío y recepción de mensajes.
+- Interfaz de administración de canales de Web WhatsApp, WhatsApp Business e Instagram, que permite vincular y desvincular las líneas.
+
 
 ## **Reportes**
 

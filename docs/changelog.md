@@ -1,5 +1,16 @@
   ---
 
+### **[ 2022 - 11 - 21 ]**
+- Resolución de chats en bloque
+- Nombre de los chats de WhatsApp puede ser el mismo del contacto guardado en el celular empresarial
+- Opción para asignar un agente o un grupo de agentes específicamente para la atención de un cliente
+- Opción de configuración de las líneas para que los chats entrantes sean repartidos directamente a un agente o a un grupo de agentes
+- Opción para que agentes no puedan editar ni borrar mensajes
+- Interfaz de administración de canales de Web WhatsApp, WhatsApp Business e Instagram, que permite vincular y desvincular las líneas
+- Interfaz de administración de listas negras para evitar escribir a contactos a los que no esté permitido enviar mensajes
+
+  ---
+
 ### **[ 2022 - 09 - 08 ]**
 - Notificaciones de desconexión de WhatsApp para impedir errores en el envío y recepción de mensajes.
 - Opción del menú para envío de correos con la respuesta recibida por parte del cliente.
