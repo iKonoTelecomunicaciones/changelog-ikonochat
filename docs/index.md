@@ -19,6 +19,7 @@
 - El agente recibe mensajes citados por el cliente (en las dos `APIs`)
 - Se puede compartir la ubicación y visualizar la ubicación enviada por un cliente.
 - Menús con botones.
+- Se ven las reacciones de los clientes a los mensajes
 
 
 ## **Menú de opciones**
