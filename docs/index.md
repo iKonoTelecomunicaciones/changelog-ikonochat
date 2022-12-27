@@ -19,7 +19,7 @@
 - El agente recibe mensajes citados por el cliente (en las dos `APIs`)
 - Se puede compartir la ubicación y visualizar la ubicación enviada por un cliente.
 - Menús con botones.
-- Se ven las reacciones de los clientes a los mensajes
+- Se ven las reacciones de los clientes a los mensajes.
 
 
 ## **Menú de opciones**
@@ -46,6 +46,7 @@
 - Se pueden construir menús con botones.
 - Opción del menú para envío de correos con la respuesta recibida por parte del cliente.
 - Opción del menú para envío de imágenes.
+- Opción para poner emojis de los números en las opciones del menú en lugar de texto plano.
 
 ## **Gestión de chats**
 
@@ -68,10 +69,11 @@
 o que consulta un recurso web.
 - Directorio de clientes al iniciar una conversación por parte del agente, para los casos en los que no está disponible el número telefónico.
 - Implementación de manejo especial cuando un usuario escribe al chat por fuera de los horarios de atención.
-- Resolución de chats en bloque.
+- Resolución de chats en bloque por parte del supervisor y del agente.
 - Opción de configuración de las líneas para que los chats entrantes sean repartidos directamente a un agente o a un grupo de agentes.
 - Opción para que agentes no puedan editar ni borrar mensajes.
 - Interfaz de administración de listas negras para evitar escribir a contactos a los que no esté permitido enviar mensajes.
+- Opción para repartir el chat a una cola de agentes no sólo al seleccionar una opción del menú sino también cuando el cliente responde correctamente una o varias preguntas.
 
 
 ## **Gestión de clientes**
@@ -87,6 +89,12 @@ o que consulta un recurso web.
 
 - Interfaz de administración de agentes (creación y modificación)
 - Posibilidad de crear una cantidad limitada de agentes y un límite independiente de agentes con sesiones activas.
+
+
+## **Operaciones de agente**
+
+- Interfaz de creación de motivos de pausa.
+- Opciones de pausa y despausa en la interfaz del agente.
 
 
 ## **Interfaz web**

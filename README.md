@@ -38,7 +38,7 @@
     mkdocs gh-deploy
 ```
 
-- Verificar que no se hara borrado el dominio yendo a la siguiente ruta en Github:
+- Verificar que no se haya borrado el dominio yendo a la siguiente ruta dentro del repositorio del changelog en Github:
 ```
     Settings -> Pages -> Custom domain -> https://changelog.ikono.net.co
 ```

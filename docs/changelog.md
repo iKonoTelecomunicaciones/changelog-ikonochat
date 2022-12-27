@@ -1,13 +1,26 @@
   ---
 
+### **[ 2022 - 12 - 22 ]**
+- Resolución de chats en bloque no sólo por parte del supervisor sino también por parte del agente.
+- Opción para repartir el chat a una cola de agentes no sólo al seleccionar una opción del menú sino también cuando el cliente responde correctamente una o varias preguntas.
+- Nueva distribución del menú de administración en la interfaz del supervisor.
+- Se deshabilitan operaciones sobre el chat cuando el agente lo transfiere, para que ya no tenga gestión sobre él.
+- Opción para poner emojis de los números en las opciones del menú en lugar de texto plano.
+- Mejora en el servicio de la base de datos y adaptación de cambios en los scripts de instalación automática de nuevos clientes.
+- Corrección de bugs en la creación de listas negras.
+- Interfaz de creación de motivos de pausa.
+- Opciones de pausa y despausa en la interfaz del agente.
+
+  ---
+
 ### **[ 2022 - 11 - 21 ]**
-- Resolución de chats en bloque
-- Nombre de los chats de WhatsApp puede ser el mismo del contacto guardado en el celular empresarial
-- Opción para asignar un agente o un grupo de agentes específicamente para la atención de un cliente
+- Resolución de chats en bloque.
+- Nombre de los chats de WhatsApp puede ser el mismo del contacto guardado en el celular empresarial.
+- Opción para asignar un agente o un grupo de agentes específicamente para la atención de un cliente.
 - Opción de configuración de las líneas para que los chats entrantes sean repartidos directamente a un agente o a un grupo de agentes
-- Opción para que agentes no puedan editar ni borrar mensajes
-- Interfaz de administración de canales de Web WhatsApp, WhatsApp Business e Instagram, que permite vincular y desvincular las líneas
-- Interfaz de administración de listas negras para evitar escribir a contactos a los que no esté permitido enviar mensajes
+- Opción para que agentes no puedan editar ni borrar mensajes.
+- Interfaz de administración de canales de Web WhatsApp, WhatsApp Business e Instagram, que permite vincular y desvincular las líneas.
+- Interfaz de administración de listas negras para evitar escribir a contactos a los que no esté permitido enviar mensajes.
 
   ---
 
