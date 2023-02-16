@@ -2,9 +2,9 @@
 ## **Colas de atención**
 
 - Agentes distribuidos en colas de atención.
- - Administración de las colas de atención:
-	 - Creación de colas.
-	 - Modificación de membresías.
+- Administración de las colas de atención:
+	- Creación de colas.
+	- Modificación de membresías.
 - Segmentación de clientes por medio de un menú de opciones que representan las colas de atención.
 - Asignación automática de chats entre los agentes conectados, con estrategia por turnos.
 - Transferencia de chats entre agentes y entre colas de atención.
@@ -89,6 +89,7 @@ o que consulta un recurso web.
 
 - Interfaz de administración de agentes (creación y modificación)
 - Posibilidad de crear una cantidad limitada de agentes y un límite independiente de agentes con sesiones activas.
+- Monitoreo de agentes para conocer su estado, tiempo de pausa y motivo de pausa.
 
 
 ## **Operaciones de agente**
@@ -130,12 +131,13 @@ o que consulta un recurso web.
 - Tabla de opciones del menú con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos y chats entrantes por opción del menú, en un rango de fechas.
 - Dashboard para que el agente pueda ver la información de sus chats.
 
-## **Bridge**
+## **Bridges**
 
 - Se tiene soporte con la API oficial de **Gupshup** para la comunicación con WhatsApp.
 - Se tiene soporte con la API no oficial **WhatsApp** multi dispositivo.
 - Se tiene soporte con la API oficial de **Twilio** para la comunicación con WhatsApp.
 - Se tiene soporte con **Instagram** para envío y recepción de chats a través de la plataforma de `iKono Chat`.
+- Se tiene soporte con **Facebook Messenger** para envío y recepción de chats a través de la plataforma de `iKono Chat`.
 
 ## **APIs**
 - ### API Sender

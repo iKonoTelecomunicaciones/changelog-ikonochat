@@ -35,6 +35,7 @@
 
 - Desplegar el proyecto:
 ```bash
+    git pull
     mkdocs gh-deploy
 ```
 

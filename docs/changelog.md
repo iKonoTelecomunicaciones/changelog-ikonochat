@@ -1,5 +1,14 @@
   ---
 
+### **[ 2023 - 02 - 16 ]**
+- Interfaz de gestión de colas de atención, que permite asignar y remover agentes de cada cola.
+- Opción para visualizar las colas en las que está un agente.
+- Opción para visualizar los agentes asignados a una cola.
+- Monitoreo de agentes para conocer su estado, tiempo de pausa y motivo de pausa.
+- Integración con Facebook Messenger.
+
+  ---
+
 ### **[ 2022 - 12 - 22 ]**
 - Resolución de chats en bloque no sólo por parte del supervisor sino también por parte del agente.
 - Opción para repartir el chat a una cola de agentes no sólo al seleccionar una opción del menú sino también cuando el cliente responde correctamente una o varias preguntas.
