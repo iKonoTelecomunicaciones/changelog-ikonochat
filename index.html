@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#colas-de-atencion" class="md-skip">
+        <a href="#distribucion-automatica-de-chats-entrantes" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -243,8 +243,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#colas-de-atencion" class="md-nav__link">
-    Colas de atención
+  <a href="#distribucion-automatica-de-chats-entrantes" class="md-nav__link">
+    Distribución automática de chats entrantes
   </a>
   
 </li>
@@ -384,7 +384,7 @@
                 
                   <h1>Características</h1>
                 
-                <h2 id="colas-de-atencion"><strong>Colas de atención</strong></h2>
+                <h2 id="distribucion-automatica-de-chats-entrantes"><strong>Distribución automática de chats entrantes</strong></h2>
 <ul>
 <li>Agentes distribuidos en colas de atención.</li>
 <li>Administración de las colas de atención:<ul>
@@ -395,14 +395,16 @@
 <li>Segmentación de clientes por medio de un menú de opciones que representan las colas de atención.</li>
 <li>Asignación automática de chats entre los agentes conectados, con estrategia por turnos.</li>
 <li>Transferencia de chats entre agentes y entre colas de atención.</li>
+<li>Interfaz para establecer el enrutamiento de cada canal de la empresa (WhatsApp, Instagram, Facebook Messenger) de manera que los chats entrantes sean atendidos por un agente, una cola o un menú dependiendo del canal.</li>
+<li>Distribución de chats a agentes asignados específicamente aún si no están en línea.</li>
 </ul>
 <h2 id="contenido-de-los-chats"><strong>Contenido de los chats</strong></h2>
 <ul>
 <li>Envío y recepción de <code>imágenes</code>, <code>vídeos</code>, <code>emojis</code>, <code>PDF</code>, <code>documentos de Office</code> y <code>notas de voz</code>.</li>
 <li>Se conserva el historial de la conversación sin importar el cambio de estado del chat, ni cuantas veces sea reasignado.</li>
 <li>Historial de archivos enviados y recibidos en el chat.</li>
-<li>El agente puede citar mensajes del cliente al enviarle una respuesta (sólo <code>API</code> no oficial)</li>
-<li>El agente recibe mensajes citados por el cliente (en las dos <code>APIs</code>)</li>
+<li>El agente puede citar mensajes del cliente al enviarle una respuesta (sólo Api Web WhatsApp)</li>
+<li>El agente recibe mensajes citados por el cliente (en las dos Apis)</li>
 <li>Se puede compartir la ubicación y visualizar la ubicación enviada por un cliente.</li>
 <li>Menús con botones.</li>
 <li>Se ven las reacciones de los clientes a los mensajes.</li>
@@ -434,12 +436,13 @@
 <li>Opción del menú para envío de correos con la respuesta recibida por parte del cliente.</li>
 <li>Opción del menú para envío de imágenes.</li>
 <li>Opción para poner emojis de los números en las opciones del menú en lugar de texto plano.</li>
+<li>Las opciones de los menús pueden enviar imágenes, videos, audios y archivos.</li>
 </ul>
 <h2 id="gestion-de-chats"><strong>Gestión de chats</strong></h2>
 <ul>
 <li>Monitoreo de los chats en tiempo real.</li>
 <li>Los chats entrantes cuando no hay agentes disponibles se dejan en espera para ser asignados tan pronto como se conecte un agente.</li>
-<li>Opción para iniciar una conversación con un cliente por medio de plantillas aprobadas en la api oficial o con un texto libre en la <code>API</code> no oficial.</li>
+<li>Opción para iniciar una conversación con un cliente por medio de plantillas aprobadas en la Api Business o con un texto libre en la Api Web WhatsApp.</li>
 <li>Interfaz para el uso de respuestas rápidas que facilitan la reutilización de frases comúnmente enviadas en los chats.</li>
 <li>Clasificación de plantillas y respuestas rápidas, y posibilidad de filtrar por categoría, y buscar por nombre, título o texto.</li>
 <li>Opción configurable para manejo de chat cuando el agente asignado no está en línea:<ul>
@@ -450,7 +453,7 @@
 </li>
 <li>Notas privadas en los chats para agregar información interna que sólo puede ver el agente y el supervisor.</li>
 <li>Posibilidad de tener chats entre agentes para tener conversaciones internas.</li>
-<li>Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo no oficial).</li>
+<li>Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo Api Web WhatsApp).</li>
 <li>Posibilidad de manejar varios números de WhatsApp.</li>
 <li>Posibilidad de conocer cuantos chats entrantes tiene cada agente.</li>
 <li>El menubot se detiene y reanuda con una frase clave.</li>
@@ -509,7 +512,7 @@ o que consulta un recurso web.</li>
 <li><strong>Chats nuevos:</strong> Chats entrantes de nuevos números telefónicos consultados entre dos fechas.</li>
 <li><strong>Chats resueltos:</strong> Chats marcados como resueltos por parte del agente o supervisor entre dos fechas.</li>
 <li>Para cada una de las categorías se muestra el total y se permite ver el listado detallado de chats.</li>
-<li>Se puede monitorear el estado del bridge no oficial.</li>
+<li>Se puede monitorear el estado de las conexiones de los canales con la Api Web WhatsApp.</li>
 <li>Se tiene una pagina que almacena todas las características de <code>iKono Chat</code> y sus nuevos cambios.</li>
 <li>Tabla de agentes con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos, chats entrantes y tiempo promedio de respuesta por agente, en un rango de fechas.</li>
 <li>Tabla de opciones del menú con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos y chats entrantes por opción del menú, en un rango de fechas.</li>
@@ -517,9 +520,9 @@ o que consulta un recurso web.</li>
 </ul>
 <h2 id="bridges"><strong>Bridges</strong></h2>
 <ul>
-<li>Se tiene soporte con la API oficial de <strong>Gupshup</strong> para la comunicación con WhatsApp.</li>
-<li>Se tiene soporte con la API no oficial <strong>WhatsApp</strong> multi dispositivo.</li>
-<li>Se tiene soporte con la API oficial de <strong>Twilio</strong> para la comunicación con WhatsApp.</li>
+<li>Se tiene soporte con la Api Business <strong>Gupshup</strong> para la comunicación con WhatsApp.</li>
+<li>Se tiene soporte con la Api Web WhatsApp <strong>WhatsApp</strong> multi dispositivo.</li>
+<li>Se tiene soporte con la Api Business de <strong>Twilio</strong> para la comunicación con WhatsApp.</li>
 <li>Se tiene soporte con <strong>Instagram</strong> para envío y recepción de chats a través de la plataforma de <code>iKono Chat</code>.</li>
 <li>Se tiene soporte con <strong>Facebook Messenger</strong> para envío y recepción de chats a través de la plataforma de <code>iKono Chat</code>.</li>
 </ul>
