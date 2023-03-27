@@ -1,5 +1,5 @@
 
-## **Colas de atención**
+## **Distribución automática de chats entrantes**
 
 - Agentes distribuidos en colas de atención.
 - Administración de las colas de atención:
@@ -8,6 +8,8 @@
 - Segmentación de clientes por medio de un menú de opciones que representan las colas de atención.
 - Asignación automática de chats entre los agentes conectados, con estrategia por turnos.
 - Transferencia de chats entre agentes y entre colas de atención.
+- Interfaz para establecer el enrutamiento de cada canal de la empresa (WhatsApp, Instagram, Facebook Messenger) de manera que los chats entrantes sean atendidos por un agente, una cola o un menú dependiendo del canal.
+- Distribución de chats a agentes asignados específicamente aún si no están en línea.
 
 
 ## **Contenido de los chats**
@@ -15,8 +17,8 @@
 - Envío y recepción de `imágenes`, `vídeos`, `emojis`, `PDF`, `documentos de Office` y `notas de voz`.
 - Se conserva el historial de la conversación sin importar el cambio de estado del chat, ni cuantas veces sea reasignado.
 - Historial de archivos enviados y recibidos en el chat.
-- El agente puede citar mensajes del cliente al enviarle una respuesta (sólo `API` no oficial)
-- El agente recibe mensajes citados por el cliente (en las dos `APIs`)
+- El agente puede citar mensajes del cliente al enviarle una respuesta (sólo Api Web WhatsApp)
+- El agente recibe mensajes citados por el cliente (en las dos Apis)
 - Se puede compartir la ubicación y visualizar la ubicación enviada por un cliente.
 - Menús con botones.
 - Se ven las reacciones de los clientes a los mensajes.
@@ -47,12 +49,14 @@
 - Opción del menú para envío de correos con la respuesta recibida por parte del cliente.
 - Opción del menú para envío de imágenes.
 - Opción para poner emojis de los números en las opciones del menú en lugar de texto plano.
+- Las opciones de los menús pueden enviar imágenes, videos, audios y archivos.
+
 
 ## **Gestión de chats**
 
 - Monitoreo de los chats en tiempo real.
 - Los chats entrantes cuando no hay agentes disponibles se dejan en espera para ser asignados tan pronto como se conecte un agente.
-- Opción para iniciar una conversación con un cliente por medio de plantillas aprobadas en la api oficial o con un texto libre en la `API` no oficial.
+- Opción para iniciar una conversación con un cliente por medio de plantillas aprobadas en la Api Business o con un texto libre en la Api Web WhatsApp.
 - Interfaz para el uso de respuestas rápidas que facilitan la reutilización de frases comúnmente enviadas en los chats.
 - Clasificación de plantillas y respuestas rápidas, y posibilidad de filtrar por categoría, y buscar por nombre, título o texto.
 - Opción configurable para manejo de chat cuando el agente asignado no está en línea:
@@ -61,7 +65,7 @@
 	- Menú para que el usuario decida si desea ser transferido o si desea ver el menú y elegir otra opción.
 - Notas privadas en los chats para agregar información interna que sólo puede ver el agente y el supervisor.
 - Posibilidad de tener chats entre agentes para tener conversaciones internas.
-- Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo no oficial).
+- Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo Api Web WhatsApp).
 - Posibilidad de manejar varios números de WhatsApp.
 - Posibilidad de conocer cuantos chats entrantes tiene cada agente.
 - El menubot se detiene y reanuda con una frase clave.
@@ -125,19 +129,21 @@ o que consulta un recurso web.
 - **Chats nuevos:** Chats entrantes de nuevos números telefónicos consultados entre dos fechas.
 - **Chats resueltos:** Chats marcados como resueltos por parte del agente o supervisor entre dos fechas.
 - Para cada una de las categorías se muestra el total y se permite ver el listado detallado de chats.
-- Se puede monitorear el estado del bridge no oficial.
+- Se puede monitorear el estado de las conexiones de los canales con la Api Web WhatsApp.
 - Se tiene una pagina que almacena todas las características de `iKono Chat` y sus nuevos cambios.
 - Tabla de agentes con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos, chats entrantes y tiempo promedio de respuesta por agente, en un rango de fechas.
 - Tabla de opciones del menú con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos y chats entrantes por opción del menú, en un rango de fechas.
 - Dashboard para que el agente pueda ver la información de sus chats.
 
+
 ## **Bridges**
 
-- Se tiene soporte con la API oficial de **Gupshup** para la comunicación con WhatsApp.
-- Se tiene soporte con la API no oficial **WhatsApp** multi dispositivo.
-- Se tiene soporte con la API oficial de **Twilio** para la comunicación con WhatsApp.
+- Se tiene soporte con la Api Business **Gupshup** para la comunicación con WhatsApp.
+- Se tiene soporte con la Api Web WhatsApp **WhatsApp** multi dispositivo.
+- Se tiene soporte con la Api Business de **Twilio** para la comunicación con WhatsApp.
 - Se tiene soporte con **Instagram** para envío y recepción de chats a través de la plataforma de `iKono Chat`.
 - Se tiene soporte con **Facebook Messenger** para envío y recepción de chats a través de la plataforma de `iKono Chat`.
+
 
 ## **APIs**
 - ### API Sender
@@ -149,6 +155,7 @@ o que consulta un recurso web.
     - Permite a cada usuario cerrar sesión con WhatsApp e iniciar sesión con otro número.
     - No hay límite en la cantidad de usuarios.
     - Funciona con la versión multi dispositivo de **WhatsApp**.
+
 
 ## **Integraciones**
 

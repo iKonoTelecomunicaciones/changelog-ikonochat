@@ -1,5 +1,12 @@
   ---
 
+### **[ 2023 - 03 - 17 ]**
+- Se agrega interfaz para establecer el enrutamiento de cada canal de la empresa (WhatsApp, Instagram, Facebook) de manera que los chats entrantes sean atendidos por un agente, una cola o un menú, dependiendo del canal.
+- Distribución de chats a agentes asignados específicamente aún si no están en línea.
+- Las opciones de los menús ahora pueden enviar imágenes, videos, audios y archivos.
+
+  ---
+
 ### **[ 2023 - 02 - 16 ]**
 - Interfaz de gestión de colas de atención, que permite asignar y remover agentes de cada cola.
 - Opción para visualizar las colas en las que está un agente.
