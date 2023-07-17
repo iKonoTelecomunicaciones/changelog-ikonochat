@@ -1,5 +1,17 @@
   ---
 
+### **[ 2023 - 07 - 17 ]**
+- Se agrega opción para que luego de un máximo de intentos al ingresar un dato en un chat, se pueda ejecutar alguna opción deseada como por ejemplo repartir el chat.
+- Se agrega opción para que al transferir un chat a una sala sin agentes disponibles, el chat quede encolado y se atienda cuando se encuentre un agente disponible.
+- Gestión de optin del los clientes en diferentes niveles: general para todas las cuentas, específico por canal, y específico por canal y cuenta.
+- Se agrega opción para exportar los contactos creados en la plataforma, tanto en formato estándar como en un formato que permite importarlos desde la aplicación de contactos de Google.
+- Se agrega opción para que los contactos exportados desde Google se puedan importar en la plataforma.
+- Se permite mezclar contactos para unificar sus cuentas.
+- Opción para crear plantillas generales a todos las canales creados en la empresa.
+- Creación, modificación y eliminación de negocios.
+
+  ---
+
 ### **[ 2023 - 03 - 17 ]**
 - Se agrega interfaz para establecer el enrutamiento de cada canal de la empresa (WhatsApp, Instagram, Facebook) de manera que los chats entrantes sean atendidos por un agente, una cola o un menú, dependiendo del canal.
 - Distribución de chats a agentes asignados específicamente aún si no están en línea.

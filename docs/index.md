@@ -50,6 +50,7 @@
 - Opción del menú para envío de imágenes.
 - Opción para poner emojis de los números en las opciones del menú en lugar de texto plano.
 - Las opciones de los menús pueden enviar imágenes, videos, audios y archivos.
+- Opción para que luego de un máximo de intentos al ingresar un dato en un chat, se pueda ejecutar alguna opción deseada como por ejemplo repartir el chat.
 
 
 ## **Gestión de chats**
@@ -78,6 +79,7 @@ o que consulta un recurso web.
 - Opción para que agentes no puedan editar ni borrar mensajes.
 - Interfaz de administración de listas negras para evitar escribir a contactos a los que no esté permitido enviar mensajes.
 - Opción para repartir el chat a una cola de agentes no sólo al seleccionar una opción del menú sino también cuando el cliente responde correctamente una o varias preguntas.
+- Opción para que al transferir un chat a una sala sin agentes disponibles, el chat quede encolado y se atienda cuando se encuentre un agente disponible.
 
 
 ## **Gestión de clientes**
@@ -85,8 +87,13 @@ o que consulta un recurso web.
 - Creación y modificación de información básica del cliente.
 - Administración de permiso de consentimiento para contacto a través de WhatsApp.
 - Interfaz para almacenar masivamente el permiso de consentimiento para contacto a través de WhatsApp, por medio de un archivo con el listado de contactos.
+- Gestión de permiso de consentimiento para contacto a través de WhatsApp en diferentes niveles: general para todas las cuentas, específico por canal, y específico por canal y cuenta.
 - Nombre de los chats de WhatsApp puede ser el mismo del contacto guardado en el celular empresarial.
 - Opción para asignar un agente o un grupo de agentes específicamente para la atención de un cliente.
+- Opción para exportar los contactos creados en la plataforma, tanto en formato estándar como en un formato que permite importarlos desde la aplicación de contactos de Google.
+- Se agrega opción para que los contactos exportados desde Google se puedan importar en la plataforma.
+- Se permite mezclar contactos para unificar sus cuentas.
+- Creación, modificación y eliminación de negocios.
 
 
 ## **Gestión de agentes**
@@ -116,6 +123,7 @@ o que consulta un recurso web.
 - El agente puede elegir por cual numero quiere contactar a un cliente.
 - Supervisor y agente pueden agregar tags a un chat para clasificar las conversaciones.
 - Interfaz de administración de plantillas y de gestión de aprobación de las mismas por parte de Facebook.
+- Opción para crear plantillas generales a todos las canales creados en la empresa.
 - Opción para mostrar u ocultar toda la información de eventos de invitaciones, entradas y salidas, cambio de nombre y cambio de avatar, para que sólo se vean los mensajes en los chats.
 - Notificaciones de desconexión de WhatsApp para impedir errores en el envío y recepción de mensajes.
 - Interfaz de administración de canales de Web WhatsApp, WhatsApp Business e Instagram, que permite vincular y desvincular las líneas.
