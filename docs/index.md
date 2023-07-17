@@ -87,7 +87,7 @@ o que consulta un recurso web.
 - Creación y modificación de información básica del cliente.
 - Administración de permiso de consentimiento para contacto a través de WhatsApp.
 - Interfaz para almacenar masivamente el permiso de consentimiento para contacto a través de WhatsApp, por medio de un archivo con el listado de contactos.
-- Gestión de permiso de consentimiento para contacto a través de WhatsApp en diferentes niveles: general para todas las cuentas, específico por canal, y específico por canal y cuenta.
+- Gestión del permiso de consentimiento para contacto a través de WhatsApp en diferentes niveles: general para todas las cuentas, específico por canal, y específico por canal y cuenta.
 - Nombre de los chats de WhatsApp puede ser el mismo del contacto guardado en el celular empresarial.
 - Opción para asignar un agente o un grupo de agentes específicamente para la atención de un cliente.
 - Opción para exportar los contactos creados en la plataforma, tanto en formato estándar como en un formato que permite importarlos desde la aplicación de contactos de Google.
