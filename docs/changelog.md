@@ -1,5 +1,16 @@
   ---
 
+### **[ 2023 - 09 - 08 ]**
+- Búsqueda mejorada en el listado de contactos.
+- Visualización de cuentas en nueva columna del listado de contactos.
+- Mejora en la distribución al visualizar las cuentas de un contacto.
+- Estilos diferenciados en la interfaz de inicio de sesión del supervisor y del agente.
+- Nuevo diseño de la interfaz para iniciar una conversación con un contacto, que permite agregar contactos, agregar cuentas a contactos y seleccionar una de las cuentas del contacto.
+- Opción para importar contactos desde archivos de Excel.
+
+
+  ---
+
 ### **[ 2023 - 07 - 17 ]**
 - Se agrega opción para que luego de un máximo de intentos al ingresar un dato en un chat, se pueda ejecutar alguna opción deseada como por ejemplo repartir el chat.
 - Se agrega opción para que al transferir un chat a una sala sin agentes disponibles, el chat quede encolado y se atienda cuando se encuentre un agente disponible.

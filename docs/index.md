@@ -94,6 +94,10 @@ o que consulta un recurso web.
 - Se agrega opción para que los contactos exportados desde Google se puedan importar en la plataforma.
 - Se permite mezclar contactos para unificar sus cuentas.
 - Creación, modificación y eliminación de negocios.
+- Búsqueda mejorada en el listado de contactos.
+- Visualización de cuentas en nueva columna del listado de contactos.
+- Mejora en la distribución al visualizar las cuentas de un contacto.
+- Opción para importar contactos desde archivos de Excel.
 
 
 ## **Gestión de agentes**
@@ -127,6 +131,9 @@ o que consulta un recurso web.
 - Opción para mostrar u ocultar toda la información de eventos de invitaciones, entradas y salidas, cambio de nombre y cambio de avatar, para que sólo se vean los mensajes en los chats.
 - Notificaciones de desconexión de WhatsApp para impedir errores en el envío y recepción de mensajes.
 - Interfaz de administración de canales de Web WhatsApp, WhatsApp Business e Instagram, que permite vincular y desvincular las líneas.
+- Estilos diferenciados en la interfaz de inicio de sesión del supervisor y del agente.
+- Nuevo diseño de la interfaz para iniciar una conversación con un contacto, que permite agregar contactos, agregar cuentas a contactos y seleccionar una de las cuentas del contacto.
+
 
 
 ## **Reportes**
