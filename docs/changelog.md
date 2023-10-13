@@ -1,5 +1,12 @@
   ---
 
+### **[ 2023 - 10 - 06 ]**
+- Ver y exportar los contactos de cada empresa desde el listado de empresas.
+- Opción para iniciar conversación desde el listado de contactos.
+- Reestructuracioń de listas negras para incluir el contacto completo y no sólo el número telefónico.
+
+  ---
+
 ### **[ 2023 - 09 - 08 ]**
 - Búsqueda mejorada en el listado de contactos.
 - Visualización de cuentas en nueva columna del listado de contactos.
@@ -7,7 +14,6 @@
 - Estilos diferenciados en la interfaz de inicio de sesión del supervisor y del agente.
 - Nuevo diseño de la interfaz para iniciar una conversación con un contacto, que permite agregar contactos, agregar cuentas a contactos y seleccionar una de las cuentas del contacto.
 - Opción para importar contactos desde archivos de Excel.
-
 
   ---
 

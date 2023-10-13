@@ -80,6 +80,7 @@ o que consulta un recurso web.
 - Interfaz de administración de listas negras para evitar escribir a contactos a los que no esté permitido enviar mensajes.
 - Opción para repartir el chat a una cola de agentes no sólo al seleccionar una opción del menú sino también cuando el cliente responde correctamente una o varias preguntas.
 - Opción para que al transferir un chat a una sala sin agentes disponibles, el chat quede encolado y se atienda cuando se encuentre un agente disponible.
+- Opción para iniciar conversación desde el listado de contactos.
 
 
 ## **Gestión de clientes**
@@ -94,6 +95,7 @@ o que consulta un recurso web.
 - Se agrega opción para que los contactos exportados desde Google se puedan importar en la plataforma.
 - Se permite mezclar contactos para unificar sus cuentas.
 - Creación, modificación y eliminación de negocios.
+- Ver y exportar los contactos de cada negocio desde el listado de negocios.
 - Búsqueda mejorada en el listado de contactos.
 - Visualización de cuentas en nueva columna del listado de contactos.
 - Mejora en la distribución al visualizar las cuentas de un contacto.
