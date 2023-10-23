@@ -1,5 +1,11 @@
   ---
 
+### **[ 2023 - 10 - 20 ]**
+- Se tiene soporte para envío y recepción de chats utilizando la **WhatsApp Business API Cloud**, incluyendo mensajes interactivos con botones y listas.
+- Opción para eliminar contactos
+
+  ---
+
 ### **[ 2023 - 10 - 06 ]**
 - Ver y exportar los contactos de cada empresa desde el listado de empresas.
 - Opción para iniciar conversación desde el listado de contactos.

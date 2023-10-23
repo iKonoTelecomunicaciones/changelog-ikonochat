@@ -100,6 +100,8 @@ o que consulta un recurso web.
 - Visualización de cuentas en nueva columna del listado de contactos.
 - Mejora en la distribución al visualizar las cuentas de un contacto.
 - Opción para importar contactos desde archivos de Excel.
+- Opción para eliminar contactos
+
 
 
 ## **Gestión de agentes**
@@ -160,6 +162,7 @@ o que consulta un recurso web.
 - Se tiene soporte con la Api Business de **Twilio** para la comunicación con WhatsApp.
 - Se tiene soporte con **Instagram** para envío y recepción de chats a través de la plataforma de `iKono Chat`.
 - Se tiene soporte con **Facebook Messenger** para envío y recepción de chats a través de la plataforma de `iKono Chat`.
+- Se tiene soporte para envío y recepción de chats utilizando la **WhatsApp Business API Cloud**, incluyendo mensajes interactivos con botones y listas.
 
 
 ## **APIs**
