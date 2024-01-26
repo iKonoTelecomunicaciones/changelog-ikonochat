@@ -1,3 +1,27 @@
+### **[ 2024 - 01 - 26 ]**
+- Uso de espacios para agrupar los chats que están activos en cada cola
+- Nuevo campo para asignar el avatar de la cola, que también se usa para el espacio respectivo
+- Sólo se permite una sesión activa por agente. Si el agente inicia una nueva sesión en otro dispositivo sin haber cerrado la anterior, se cierran todas las sesiones
+- Límite de tiempo para el proceso de distribución, especialmente si se tiene activa la opción de invitar los agentes en lugar de unirlos forzadamente
+- Posibilidad de configurar las opciones disponibles cuando el usuario escribe y el agente que atiende el chat no está en línea
+- Nuevo recurso /redirect para verificar si hay un agente asignado al chat y decidir si se invoca /transfer_user o /assign
+- Opción para enviar mensajes de texto libre además de plantillas cuando se inicia una conversación usando la API de WhatsApp Business (funciona si el mensaje se envía dentro de la ventana de las 24 horas)
+- Opción para asignar un máximo de chats por agente
+- Opción de asignar chats en bloque a una cola, agente o menú
+- Notificación de asignación al igual que la notificación de transferencia
+- Nuevo recurso web para unir y expulsar usuarios de una sala
+- Opción para que el supervisor pueda pausar, despausar y desloguear agentes
+- Validaciones avanzadas en el flujo de los menús
+- Nuevo nodo y recurso web para asignar variables internas y externas en el menú
+
+  ---
+
+### **[ 2023 - 11 - 20 ]**
+- Se puede ver el estado del chat (pendiente, en seguimiento, resuelto. etc) por medio de un indicador con colores sobre el avatar de cada chat.
+- Soporte para envío y recepción de ubicaciones en bridge de Gupshup
+- Soporte para envío y recepción de notificaiones de lectura (doble chulo azul) (sólo aplica si la aplicación está alojada en la Cloud API)
+- Soporte para envío y recepción de reacciones (sólo aplica si la aplicación está alojada en la Cloud API, y el agente no puede reaccionar a mensajes que él mismo haya enviado)
+
   ---
 
 ### **[ 2023 - 10 - 20 ]**

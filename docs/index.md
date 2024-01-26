@@ -10,6 +10,7 @@
 - Transferencia de chats entre agentes y entre colas de atención.
 - Interfaz para establecer el enrutamiento de cada canal de la empresa (WhatsApp, Instagram, Facebook Messenger) de manera que los chats entrantes sean atendidos por un agente, una cola o un menú dependiendo del canal.
 - Distribución de chats a agentes asignados específicamente aún si no están en línea.
+- Límite de tiempo para el proceso de distribución, especialmente si se tiene activa la opción de invitar los agentes en lugar de unirlos forzadamente.
 
 
 ## **Contenido de los chats**
@@ -60,10 +61,7 @@
 - Opción para iniciar una conversación con un cliente por medio de plantillas aprobadas en la Api Business o con un texto libre en la Api Web WhatsApp.
 - Interfaz para el uso de respuestas rápidas que facilitan la reutilización de frases comúnmente enviadas en los chats.
 - Clasificación de plantillas y respuestas rápidas, y posibilidad de filtrar por categoría, y buscar por nombre, título o texto.
-- Opción configurable para manejo de chat cuando el agente asignado no está en línea:
-	- No hacer nada.
-	- Transferencia automática a otro agente de la misma área.
-	- Menú para que el usuario decida si desea ser transferido o si desea ver el menú y elegir otra opción.
+- Posibilidad de configurar las opciones disponibles cuando el usuario escribe y el agente que atiende el chat no está en línea.
 - Notas privadas en los chats para agregar información interna que sólo puede ver el agente y el supervisor.
 - Posibilidad de tener chats entre agentes para tener conversaciones internas.
 - Notificación al usuario de que no se reciben llamadas de WhatsApp (sólo Api Web WhatsApp).
@@ -81,6 +79,7 @@ o que consulta un recurso web.
 - Opción para repartir el chat a una cola de agentes no sólo al seleccionar una opción del menú sino también cuando el cliente responde correctamente una o varias preguntas.
 - Opción para que al transferir un chat a una sala sin agentes disponibles, el chat quede encolado y se atienda cuando se encuentre un agente disponible.
 - Opción para iniciar conversación desde el listado de contactos.
+- Opción de asignar chats en bloque a una cola, agente o menú
 
 
 ## **Gestión de clientes**
@@ -103,18 +102,20 @@ o que consulta un recurso web.
 - Opción para eliminar contactos
 
 
-
 ## **Gestión de agentes**
 
 - Interfaz de administración de agentes (creación y modificación)
 - Posibilidad de crear una cantidad limitada de agentes y un límite independiente de agentes con sesiones activas.
 - Monitoreo de agentes para conocer su estado, tiempo de pausa y motivo de pausa.
+- Opción para asignar un máximo de chats por agente
 
 
 ## **Operaciones de agente**
 
 - Interfaz de creación de motivos de pausa.
 - Opciones de pausa y despausa en la interfaz del agente.
+- Sólo se permite una sesión activa por agente. Si el agente inicia una nueva sesión en otro dispositivo sin haber cerrado la anterior, se cierran todas las sesiones
+- Opción para que el supervisor pueda pausar, despausar y desloguear agentes
 
 
 ## **Interfaz web**
@@ -137,7 +138,8 @@ o que consulta un recurso web.
 - Interfaz de administración de canales de Web WhatsApp, WhatsApp Business e Instagram, que permite vincular y desvincular las líneas.
 - Estilos diferenciados en la interfaz de inicio de sesión del supervisor y del agente.
 - Nuevo diseño de la interfaz para iniciar una conversación con un contacto, que permite agregar contactos, agregar cuentas a contactos y seleccionar una de las cuentas del contacto.
-
+- Uso de espacios para agrupar los chats que están activos en cada cola
+- Nuevo campo para asignar el avatar de la cola, que también se usa para el espacio respectivo
 
 
 ## **Reportes**
