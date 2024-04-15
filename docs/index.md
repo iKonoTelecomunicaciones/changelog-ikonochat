@@ -26,7 +26,7 @@
 - Se ven las reacciones de los clientes a los mensajes.
 - Agentes pueden ver las respuestas a estados de WhatsApp
 - Envío de texto libre (además de las plantillas aprobadas) para iniciar conversaciones usando la API Business siempre y cuando esté abierta la ventana de las 24 horas.
-- Posibilidad de uso de plantillas con contenido multimedia dede la API Business
+- Posibilidad de uso de plantillas con contenido multimedia desde la API Business
 
 
 ## **Menú de opciones**

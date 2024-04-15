@@ -8,7 +8,7 @@
 - Posibilidad de consultar la notificación de lectura de los mensajes enviados a través de la API Business
 - Soporte para uso de API de servicios de inteligencia artificial desde el menú
 - Soporte para implementación de subrutinas en el menú
-- Posibilidad de uso de plantillas con contenido multimedia dede la API Business
+- Posibilidad de uso de plantillas con contenido multimedia desde la API Business
 
 ---
 
