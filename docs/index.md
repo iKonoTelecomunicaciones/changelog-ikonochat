@@ -8,6 +8,7 @@
 - Segmentación de clientes por medio de un menú de opciones que representan las colas de atención.
 - Asignación automática de chats entre los agentes conectados, con estrategia por turnos.
 - Transferencia de chats entre agentes y entre colas de atención.
+- Transferencia de chats a menús
 - Interfaz para establecer el enrutamiento de cada canal de la empresa (WhatsApp, Instagram, Facebook Messenger) de manera que los chats entrantes sean atendidos por un agente, una cola o un menú dependiendo del canal.
 - Distribución de chats a agentes asignados específicamente aún si no están en línea.
 - Límite de tiempo para el proceso de distribución, especialmente si se tiene activa la opción de invitar los agentes en lugar de unirlos forzadamente.
@@ -23,6 +24,9 @@
 - Se puede compartir la ubicación y visualizar la ubicación enviada por un cliente.
 - Menús con botones.
 - Se ven las reacciones de los clientes a los mensajes.
+- Agentes pueden ver las respuestas a estados de WhatsApp
+- Envío de texto libre (además de las plantillas aprobadas) para iniciar conversaciones usando la API Business siempre y cuando esté abierta la ventana de las 24 horas.
+- Posibilidad de uso de plantillas con contenido multimedia dede la API Business
 
 
 ## **Menú de opciones**
@@ -80,6 +84,8 @@ o que consulta un recurso web.
 - Opción para que al transferir un chat a una sala sin agentes disponibles, el chat quede encolado y se atienda cuando se encuentre un agente disponible.
 - Opción para iniciar conversación desde el listado de contactos.
 - Opción de asignar chats en bloque a una cola, agente o menú
+- Posibilidad de consultar la notificación de lectura de los mensajes enviados a través de la API Business
+- Soporte para uso de API de servicios de inteligencia artificial desde el menú
 
 
 ## **Gestión de clientes**
@@ -107,6 +113,7 @@ o que consulta un recurso web.
 - Interfaz de administración de agentes (creación y modificación)
 - Posibilidad de crear una cantidad limitada de agentes y un límite independiente de agentes con sesiones activas.
 - Monitoreo de agentes para conocer su estado, tiempo de pausa y motivo de pausa.
+- Visualización en tiempo real del cambio de estado de los agentes
 - Opción para asignar un máximo de chats por agente
 
 

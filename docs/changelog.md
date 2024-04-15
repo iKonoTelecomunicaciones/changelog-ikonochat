@@ -1,3 +1,17 @@
+### **[ 2024 - 04 - 15 ]**
+- Agentes pueden ver las respuestas a estados de WhatsApp
+- Se pueden poner colores a los tags
+- Campo para asignar máximo de chats por agente en interfaz de administración de agentes
+- Se puede enviar texto libre (además de las plantillas aprobadas) para iniciar conversaciones usando la API Business siempre y cuando esté abierta la ventana de las 24 horas.
+- Posibilidad de hacer transferencias a menús
+- Visualización en tiempo real del cambio de estado de los agentes
+- Posibilidad de consultar la notificación de lectura de los mensajes enviados a través de la API Business
+- Soporte para uso de API de servicios de inteligencia artificial desde el menú
+- Soporte para implementación de subrutinas en el menú
+- Posibilidad de uso de plantillas con contenido multimedia dede la API Business
+
+---
+
 ### **[ 2024 - 01 - 26 ]**
 - Uso de espacios para agrupar los chats que están activos en cada cola
 - Nuevo campo para asignar el avatar de la cola, que también se usa para el espacio respectivo
