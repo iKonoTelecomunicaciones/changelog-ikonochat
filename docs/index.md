@@ -27,6 +27,8 @@
 - Agentes pueden ver las respuestas a estados de WhatsApp
 - Envío de texto libre (además de las plantillas aprobadas) para iniciar conversaciones usando la API Business siempre y cuando esté abierta la ventana de las 24 horas.
 - Posibilidad de uso de plantillas con contenido multimedia desde la API Business
+- Nueva opción de configurar una espera entre mensajes enviados desde el menú (nodo de espera) para evitar enviar mensajes en desorden
+- El agente puede ver las respuestas contextualizadas a mensajes publicitarios 
 
 
 ## **Menú de opciones**
@@ -86,6 +88,7 @@ o que consulta un recurso web.
 - Opción de asignar chats en bloque a una cola, agente o menú
 - Posibilidad de consultar la notificación de lectura de los mensajes enviados a través de la API Business
 - Soporte para uso de API de servicios de inteligencia artificial desde el menú
+- Verificación de optin (aceptación de contacto a través de WhatsApp) antes de iniciar una conversación
 
 
 ## **Gestión de clientes**
@@ -106,6 +109,7 @@ o que consulta un recurso web.
 - Mejora en la distribución al visualizar las cuentas de un contacto.
 - Opción para importar contactos desde archivos de Excel.
 - Opción para eliminar contactos
+- Opción para eliminar optin (aceptación de contacto a través de WhatsApp)
 
 
 ## **Gestión de agentes**
@@ -115,6 +119,7 @@ o que consulta un recurso web.
 - Monitoreo de agentes para conocer su estado, tiempo de pausa y motivo de pausa.
 - Visualización en tiempo real del cambio de estado de los agentes
 - Opción para asignar un máximo de chats por agente
+- Opción para visualizar sólo los agentes logueados en la plataforma desde el monitoreo
 
 
 ## **Operaciones de agente**

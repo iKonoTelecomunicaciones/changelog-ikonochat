@@ -1,3 +1,12 @@
+### **[ 2024 - 05 - 10 ]**
+- Nueva opción de configurar una espera entre mensajes enviados desde el menú (nodo de espera) para evitar enviar mensajes en desorden
+- Verificación de optin (aceptación de contacto a través de WhatsApp) antes de iniciar una conversación
+- Opción para visualizar sólo los agentes logueados en la plataforma desde el monitoreo
+- El agente puede ver las respuestas contextualizadas a mensajes publicitarios 
+- Opción para eliminar optin (aceptación de contacto a través de WhatsApp)
+
+---
+
 ### **[ 2024 - 04 - 15 ]**
 - Agentes pueden ver las respuestas a estados de WhatsApp
 - Se pueden poner colores a los tags
