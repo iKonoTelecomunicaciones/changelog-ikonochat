@@ -29,6 +29,8 @@
 - Posibilidad de uso de plantillas con contenido multimedia desde la API Business
 - Nueva opción de configurar una espera entre mensajes enviados desde el menú (nodo de espera) para evitar enviar mensajes en desorden
 - El agente puede ver las respuestas contextualizadas a mensajes publicitarios 
+- Nueva versión de la API de envío de mensajes que permite el envío de contenido multimedia (imágenes, videos, audios y archivos PDF)
+- Opción para integrar asistentes de inteligencia artificial a las opciones del menú
 
 
 ## **Menú de opciones**
@@ -152,6 +154,8 @@ o que consulta un recurso web.
 - Nuevo diseño de la interfaz para iniciar una conversación con un contacto, que permite agregar contactos, agregar cuentas a contactos y seleccionar una de las cuentas del contacto.
 - Uso de espacios para agrupar los chats que están activos en cada cola
 - Nuevo campo para asignar el avatar de la cola, que también se usa para el espacio respectivo
+- Nueva categoría de variables de contacto que cargan automáticamente la información del contacto al enviar plantillas desde la interfaz del agente.
+
 
 
 ## **Reportes**

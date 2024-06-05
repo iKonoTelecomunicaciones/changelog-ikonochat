@@ -1,3 +1,10 @@
+### **[ 2024 - 05 - 24 ]**
+- Nueva versión de la API de envío de mensajes que permite el envío de contenido multimedia (imágenes, videos, audios y archivos PDF)
+- Nueva categoría de variables de contacto que cargan automáticamente la información del contacto al enviar plantillas desde la interfaz del agente.
+- Opción para integrar asistentes de inteligencia artificial a las opciones del menú
+
+---
+
 ### **[ 2024 - 05 - 10 ]**
 - Nueva opción de configurar una espera entre mensajes enviados desde el menú (nodo de espera) para evitar enviar mensajes en desorden
 - Verificación de optin (aceptación de contacto a través de WhatsApp) antes de iniciar una conversación
