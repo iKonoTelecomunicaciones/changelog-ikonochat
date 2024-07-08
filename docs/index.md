@@ -155,6 +155,8 @@ o que consulta un recurso web.
 - Uso de espacios para agrupar los chats que están activos en cada cola
 - Nuevo campo para asignar el avatar de la cola, que también se usa para el espacio respectivo
 - Nueva categoría de variables de contacto que cargan automáticamente la información del contacto al enviar plantillas desde la interfaz del agente.
+- Interfaz de creación de plantillas con imágenes, videos, audios y/o archivos PDF embebidos en el mensaje.
+- Búsqueda rápida de plantillas utilizando el caracter / .
 
 
 
@@ -171,6 +173,9 @@ o que consulta un recurso web.
 - Tabla de agentes con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos, chats entrantes y tiempo promedio de respuesta por agente, en un rango de fechas.
 - Tabla de opciones del menú con cantidad de chats activos discriminados en chats pendientes y chats en seguimiento. También se muestra los chats resueltos y chats entrantes por opción del menú, en un rango de fechas.
 - Dashboard para que el agente pueda ver la información de sus chats.
+- Se agrega campaña y subcampaña a cada conversación para tener más opciones de generación de reportes.
+- Campo de tiempo de primera respuesta del agente desde que se une al chat.
+- campo de tiempo de primera respuesta del agente desde que el chat entra a la cola.
 
 
 ## **Bridges**

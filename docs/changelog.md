@@ -1,4 +1,13 @@
 ### **[ 2024 - 05 - 24 ]**
+- Se agrega campaña y subcampaña a cada conversación para tener más opciones de generación de reportes
+- Interfaz de creación de plantillas con imágenes, videos, audios y/o archivos PDF embebidos en el mensaje
+- Campo de tiempo de primera respuesta del agente desde que se une al chat
+- campo de tiempo de primera respuesta del agente desde que el chat entra a la cola
+- Búsqueda rápida de plantillas utilizando el caracter /
+
+---
+
+### **[ 2024 - 05 - 24 ]**
 - Nueva versión de la API de envío de mensajes que permite el envío de contenido multimedia (imágenes, videos, audios y archivos PDF)
 - Nueva categoría de variables de contacto que cargan automáticamente la información del contacto al enviar plantillas desde la interfaz del agente.
 - Opción para integrar asistentes de inteligencia artificial a las opciones del menú
