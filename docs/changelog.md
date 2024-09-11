@@ -1,4 +1,18 @@
-### **[ 2024 - 05 - 24 ]**
+### **[ 2024 - 08 - 30 ]**
+- Nuevo reporte de detalle de pausas
+- Nuevo reporte de total de chats entrantes por cada canal
+- Nuevo reporte de total de chats por campaña y subcampaña
+- Nombre personalizado en cada nodo de la interfaz de administración de menús
+- Listado de agentes en el nodo de invitación de usuarios en la interfaz de administración de menús
+- Nuevo nodo de correo electrónico y asistente de inteligencia artificial en la interfaz de administración de menús
+- Interfaz para construir menús con botones
+- Posibilidad de gestionar los grupos de WhatsApp desde la interfaz de agente y supervisor
+- Interfaz de tipificación de conversaciones
+- Búsqueda mejorada para obtener más de 50 salas como resultado del filtro de la búsqueda
+
+---
+
+### **[ 2024 - 07 - 05 ]**
 - Se agrega campaña y subcampaña a cada conversación para tener más opciones de generación de reportes
 - Interfaz de creación de plantillas con imágenes, videos, audios y/o archivos PDF embebidos en el mensaje
 - Campo de tiempo de primera respuesta del agente desde que se une al chat
@@ -18,7 +32,7 @@
 - Nueva opción de configurar una espera entre mensajes enviados desde el menú (nodo de espera) para evitar enviar mensajes en desorden
 - Verificación de optin (aceptación de contacto a través de WhatsApp) antes de iniciar una conversación
 - Opción para visualizar sólo los agentes logueados en la plataforma desde el monitoreo
-- El agente puede ver las respuestas contextualizadas a mensajes publicitarios 
+- El agente puede ver las respuestas contextualizadas a mensajes publicitarios
 - Opción para eliminar optin (aceptación de contacto a través de WhatsApp)
 
 ---

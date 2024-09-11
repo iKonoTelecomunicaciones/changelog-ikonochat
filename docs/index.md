@@ -28,7 +28,7 @@
 - Envío de texto libre (además de las plantillas aprobadas) para iniciar conversaciones usando la API Business siempre y cuando esté abierta la ventana de las 24 horas.
 - Posibilidad de uso de plantillas con contenido multimedia desde la API Business
 - Nueva opción de configurar una espera entre mensajes enviados desde el menú (nodo de espera) para evitar enviar mensajes en desorden
-- El agente puede ver las respuestas contextualizadas a mensajes publicitarios 
+- El agente puede ver las respuestas contextualizadas a mensajes publicitarios
 - Nueva versión de la API de envío de mensajes que permite el envío de contenido multimedia (imágenes, videos, audios y archivos PDF)
 - Opción para integrar asistentes de inteligencia artificial a las opciones del menú
 
@@ -60,7 +60,9 @@
 - Opción para poner emojis de los números en las opciones del menú en lugar de texto plano.
 - Las opciones de los menús pueden enviar imágenes, videos, audios y archivos.
 - Opción para que luego de un máximo de intentos al ingresar un dato en un chat, se pueda ejecutar alguna opción deseada como por ejemplo repartir el chat.
-
+- Listado de agentes en el nodo de invitación de usuarios en la interfaz de administración de menús
+- Nuevo nodo de correo electrónico y asistente de inteligencia artificial en la interfaz de administración de menús
+- Interfaz para construir menús con botones
 
 ## **Gestión de chats**
 
@@ -91,6 +93,7 @@ o que consulta un recurso web.
 - Posibilidad de consultar la notificación de lectura de los mensajes enviados a través de la API Business
 - Soporte para uso de API de servicios de inteligencia artificial desde el menú
 - Verificación de optin (aceptación de contacto a través de WhatsApp) antes de iniciar una conversación
+- Interfaz de tipificación de conversaciones
 
 
 ## **Gestión de clientes**
@@ -157,7 +160,8 @@ o que consulta un recurso web.
 - Nueva categoría de variables de contacto que cargan automáticamente la información del contacto al enviar plantillas desde la interfaz del agente.
 - Interfaz de creación de plantillas con imágenes, videos, audios y/o archivos PDF embebidos en el mensaje.
 - Búsqueda rápida de plantillas utilizando el caracter / .
-
+- Posibilidad de gestionar los grupos de WhatsApp desde la interfaz de agente y supervisor
+- Búsqueda mejorada para obtener más de 50 salas como resultado del filtro de la búsqueda
 
 
 ## **Reportes**
@@ -176,6 +180,10 @@ o que consulta un recurso web.
 - Se agrega campaña y subcampaña a cada conversación para tener más opciones de generación de reportes.
 - Campo de tiempo de primera respuesta del agente desde que se une al chat.
 - campo de tiempo de primera respuesta del agente desde que el chat entra a la cola.
+- Nuevo reporte de detalle de pausas
+- Nuevo reporte de total de chats entrantes por cada canal
+- Nuevo reporte de total de chats por campaña y subcampaña
+- Nombre personalizado en cada nodo de la interfaz de administración de menús
 
 
 ## **Bridges**
