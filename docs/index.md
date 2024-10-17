@@ -31,6 +31,7 @@
 - El agente puede ver las respuestas contextualizadas a mensajes publicitarios
 - Nueva versión de la API de envío de mensajes que permite el envío de contenido multimedia (imágenes, videos, audios y archivos PDF)
 - Opción para integrar asistentes de inteligencia artificial a las opciones del menú
+- Ya no se desaparecen los mensajes que el cliente elimina desde WhatsApp
 
 
 ## **Menú de opciones**
@@ -41,7 +42,6 @@
 	- Consultas sencillas a servicios web externos.
 	- Solicitud de información a los usuarios ya sea para consultas a servicios web externos o para dejar un registro interno de los datos.
 - Posibilidad de tener menú con opciones, o no tener menú y hacer la asignación de un agente directamente.
-- Configuración de menús de 1, 2 y 3 niveles.
 - Encabezados personalizados por cada submenú en los menús de varios niveles.
 - Mensaje general y/o personalizado por opción del menú cuando se asigna un agente al chat.
 - Posibilidad de devolverse al menú anterior.
@@ -63,6 +63,7 @@
 - Listado de agentes en el nodo de invitación de usuarios en la interfaz de administración de menús
 - Nuevo nodo de correo electrónico y asistente de inteligencia artificial en la interfaz de administración de menús
 - Interfaz para construir menús con botones
+- Los flujos de los menús se pueden dividir en secciones cuando son muy grandes
 
 ## **Gestión de chats**
 
@@ -93,7 +94,10 @@ o que consulta un recurso web.
 - Posibilidad de consultar la notificación de lectura de los mensajes enviados a través de la API Business
 - Soporte para uso de API de servicios de inteligencia artificial desde el menú
 - Verificación de optin (aceptación de contacto a través de WhatsApp) antes de iniciar una conversación
-- Interfaz de tipificación de conversaciones
+- Interfaz de tipificación de conversaciones.
+- Uso de espacios para agrupar los chats. Cada chat queda con una etiqueta de color que permite identificar a qué espacio pertenece.
+- Interfaz de administración de etiquetas/espacios
+
 
 
 ## **Gestión de clientes**
@@ -125,6 +129,7 @@ o que consulta un recurso web.
 - Visualización en tiempo real del cambio de estado de los agentes
 - Opción para asignar un máximo de chats por agente
 - Opción para visualizar sólo los agentes logueados en la plataforma desde el monitoreo
+- Se puede asignar una campaña y subcampaña por defecto a cada agente
 
 
 ## **Operaciones de agente**
@@ -155,13 +160,15 @@ o que consulta un recurso web.
 - Interfaz de administración de canales de Web WhatsApp, WhatsApp Business e Instagram, que permite vincular y desvincular las líneas.
 - Estilos diferenciados en la interfaz de inicio de sesión del supervisor y del agente.
 - Nuevo diseño de la interfaz para iniciar una conversación con un contacto, que permite agregar contactos, agregar cuentas a contactos y seleccionar una de las cuentas del contacto.
-- Uso de espacios para agrupar los chats que están activos en cada cola
 - Nuevo campo para asignar el avatar de la cola, que también se usa para el espacio respectivo
 - Nueva categoría de variables de contacto que cargan automáticamente la información del contacto al enviar plantillas desde la interfaz del agente.
 - Interfaz de creación de plantillas con imágenes, videos, audios y/o archivos PDF embebidos en el mensaje.
 - Búsqueda rápida de plantillas utilizando el caracter / .
-- Posibilidad de gestionar los grupos de WhatsApp desde la interfaz de agente y supervisor
 - Búsqueda mejorada para obtener más de 50 salas como resultado del filtro de la búsqueda
+- Posibilidad de gestionar los grupos de WhatsApp desde la interfaz de agente y supervisor
+- Los grupos de WhastApp están en una sección diferenciada del listado de chats
+- El agente puede ver los miembros de las salas (sólo puede ver agentes y clientes)
+- Interfaz de administración de campañas y subcampañas
 
 
 ## **Reportes**
@@ -184,6 +191,7 @@ o que consulta un recurso web.
 - Nuevo reporte de total de chats entrantes por cada canal
 - Nuevo reporte de total de chats por campaña y subcampaña
 - Nombre personalizado en cada nodo de la interfaz de administración de menús
+- Se puede seleccionar una campaña y subcampaña al iniciar conversación para ver estos datos en los reportes
 
 
 ## **Bridges**

@@ -1,3 +1,17 @@
+### **[ 2024 - 10 - 11 ]**
+- Nueva distribución del menú de opciones de administración
+- Interfaz de administración de etiquetas/espacios
+- Al editar etiquetas se actualiza el color y el nombre de la etiqueta en todos los chats etiquetados
+- Los grupos de WhastApp están en una sección diferenciada del listado de chats
+- El agente puede ver los miembros de las salas (sólo puede ver agentes y clientes)
+- Interfaz de administración de campañas y subcampañas
+- Se puede asignar una campaña y subcampaña por defecto a cada agente
+- Se puede seleccionar una campaña y subcampaña al iniciar conversación para ver estos datos en los reportes
+- Los flujos de los menús se pueden dividir en secciones cuando son muy grandes
+- Ya no se desaparecen los mensajes que el cliente elimina desde WhatsApp
+
+---
+
 ### **[ 2024 - 08 - 30 ]**
 - Nuevo reporte de detalle de pausas
 - Nuevo reporte de total de chats entrantes por cada canal
