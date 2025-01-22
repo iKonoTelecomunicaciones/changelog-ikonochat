@@ -1,3 +1,14 @@
+### **[ 2025 - 01 - 22 ]**
+- Nuevos filtros de fechas en reportes que se conservan para todos los dashboards
+- Dashboard de nivel de servicio y dashboard mensual
+- Soporte multimedia para asistentes de Chat GPT
+- Procesador de entradas del usuario en el menú para no tener que digitar exactamente el número de la opción. Opción para configurar un asistente que reconozca las entradas
+- Soporte para flujos de WhatsApp
+- Explorador de secciones en interfaz de administración de menús y opción para maximizar el espacio de trabajo de edición de flujos de menús.
+- Interfaz de despliegue y eliminación de clientes nuevos
+
+---
+
 ### **[ 2024 - 10 - 11 ]**
 - Nueva distribución del menú de opciones de administración
 - Interfaz de administración de etiquetas/espacios

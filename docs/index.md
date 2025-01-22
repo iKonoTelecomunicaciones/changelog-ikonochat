@@ -32,6 +32,8 @@
 - Nueva versión de la API de envío de mensajes que permite el envío de contenido multimedia (imágenes, videos, audios y archivos PDF)
 - Opción para integrar asistentes de inteligencia artificial a las opciones del menú
 - Ya no se desaparecen los mensajes que el cliente elimina desde WhatsApp
+- Soporte multimedia para asistentes de Chat GPT
+- Soporte para flujos de WhatsApp
 
 
 ## **Menú de opciones**
@@ -64,6 +66,8 @@
 - Nuevo nodo de correo electrónico y asistente de inteligencia artificial en la interfaz de administración de menús
 - Interfaz para construir menús con botones
 - Los flujos de los menús se pueden dividir en secciones cuando son muy grandes
+- Procesador de entradas del usuario en el menú para no tener que digitar exactamente el número de la opción. Opción para configurar un asistente que reconozca las entradas
+
 
 ## **Gestión de chats**
 
@@ -192,6 +196,9 @@ o que consulta un recurso web.
 - Nuevo reporte de total de chats por campaña y subcampaña
 - Nombre personalizado en cada nodo de la interfaz de administración de menús
 - Se puede seleccionar una campaña y subcampaña al iniciar conversación para ver estos datos en los reportes
+- Filtros de fechas en reportes que se conservan para todos los dashboards
+- Dashboard de nivel de servicio y dashboard mensual
+
 
 
 ## **Bridges**
