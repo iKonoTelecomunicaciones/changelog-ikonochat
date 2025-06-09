@@ -12,6 +12,7 @@
 - Interfaz para establecer el enrutamiento de cada canal de la empresa (WhatsApp, Instagram, Facebook Messenger) de manera que los chats entrantes sean atendidos por un agente, una cola o un menú dependiendo del canal.
 - Distribución de chats a agentes asignados específicamente aún si no están en línea.
 - Límite de tiempo para el proceso de distribución, especialmente si se tiene activa la opción de invitar los agentes en lugar de unirlos forzadamente.
+- Se permite asignar una prioridad al chat para que se reparta primero que los demás.
 
 
 ## **Contenido de los chats**
@@ -34,6 +35,7 @@
 - Ya no se desaparecen los mensajes que el cliente elimina desde WhatsApp
 - Soporte multimedia para asistentes de Chat GPT
 - Soporte para flujos de WhatsApp
+- Opción para que no se eliminen del historial del chat los mensajes eliminados por los usuarios en su WhatsApp
 
 
 ## **Menú de opciones**
@@ -62,11 +64,19 @@
 - Opción para poner emojis de los números en las opciones del menú en lugar de texto plano.
 - Las opciones de los menús pueden enviar imágenes, videos, audios y archivos.
 - Opción para que luego de un máximo de intentos al ingresar un dato en un chat, se pueda ejecutar alguna opción deseada como por ejemplo repartir el chat.
-- Listado de agentes en el nodo de invitación de usuarios en la interfaz de administración de menús
-- Nuevo nodo de correo electrónico y asistente de inteligencia artificial en la interfaz de administración de menús
-- Interfaz para construir menús con botones
-- Los flujos de los menús se pueden dividir en secciones cuando son muy grandes
-- Procesador de entradas del usuario en el menú para no tener que digitar exactamente el número de la opción. Opción para configurar un asistente que reconozca las entradas
+- Listado de agentes en el nodo de invitación de usuarios en la interfaz de administración de menús.
+- Nuevo nodo de correo electrónico y asistente de inteligencia artificial en la interfaz de administración de menús.
+- Interfaz para construir menús con botones.
+- Los flujos de los menús se pueden dividir en secciones cuando son muy grandes.
+- Procesador de entradas del usuario en el menú para no tener que digitar exactamente el número de la opción. Opción para configurar un asistente que reconozca las entradas.
+- Uso de middlewares para comunicación del nodo de asistente virtual con servicios de conversión de voz a texto y de texto a voz.
+- Configuración del mensaje de resolución del chat por parte del supervisor en los nodos de resolución del chat.
+- Configuración de la tipificación a asignarse cuando se usa el nodo de resolución del chat.
+- Nodos de diferentes colores para identificarlos más fácilmente.
+- Se recuerda zoom y posición de los módulos.
+- Se permite importar y exportar módulos y flujos completos.
+- Nuevo nodo de chequeo de festivos.
+- Se puede invitar a un menú diferente si el chat queda encolado
 
 
 ## **Gestión de chats**
@@ -95,13 +105,14 @@ o que consulta un recurso web.
 - Opción para que al transferir un chat a una sala sin agentes disponibles, el chat quede encolado y se atienda cuando se encuentre un agente disponible.
 - Opción para iniciar conversación desde el listado de contactos.
 - Opción de asignar chats en bloque a una cola, agente o menú
-- Posibilidad de consultar la notificación de lectura de los mensajes enviados a través de la API Business
-- Soporte para uso de API de servicios de inteligencia artificial desde el menú
-- Verificación de optin (aceptación de contacto a través de WhatsApp) antes de iniciar una conversación
+- Posibilidad de consultar la notificación de lectura de los mensajes enviados a través de la API Business.
+- Soporte para uso de API de servicios de inteligencia artificial desde el menú.
+- Verificación de optin (aceptación de contacto a través de WhatsApp) antes de iniciar una conversación.
 - Interfaz de tipificación de conversaciones.
 - Uso de espacios para agrupar los chats. Cada chat queda con una etiqueta de color que permite identificar a qué espacio pertenece.
-- Interfaz de administración de etiquetas/espacios
-
+- Interfaz de administración de etiquetas/espacios.
+- Actualización en tiempo real de las estadísticas del dashboard.
+- Interfaz para que el supervisor puede configurar el mensaje de resolución del chat.
 
 
 ## **Gestión de clientes**
@@ -173,6 +184,8 @@ o que consulta un recurso web.
 - Los grupos de WhastApp están en una sección diferenciada del listado de chats
 - El agente puede ver los miembros de las salas (sólo puede ver agentes y clientes)
 - Interfaz de administración de campañas y subcampañas
+- Se permite activar y desactivar canales desde la interfaz de administración de canales.
+
 
 
 ## **Reportes**
@@ -198,6 +211,7 @@ o que consulta un recurso web.
 - Se puede seleccionar una campaña y subcampaña al iniciar conversación para ver estos datos en los reportes
 - Filtros de fechas en reportes que se conservan para todos los dashboards
 - Dashboard de nivel de servicio y dashboard mensual
+- Reporte de tipificaciones y reporte de estados de entradas a cola
 
 
 

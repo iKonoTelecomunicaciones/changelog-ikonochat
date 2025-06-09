@@ -1,3 +1,21 @@
+### **[ 2025 - 06 - 09 ]**
+- Se permite asignar una prioridad al chat para que se reparta primero que los demás.
+- Opción para que no se eliminen del historial del chat los mensajes eliminados por los usuarios en su WhatsApp.
+- Uso de middlewares para comunicación del nodo de asistente virtual con servicios de conversión de voz a texto y de texto a voz.
+- Configuración del mensaje de resolución del chat por parte del supervisor en los nodos de resolución del chat.
+- Configuración de la tipificación a asignarse cuando se usa el nodo de resolución del chat.
+- Nodos de diferentes colores para identificarlos más fácilmente.
+- Se recuerda zoom y posición de los módulos en la interfaz de administración de menús.
+- Se permite importar y exportar módulos y flujos completos en la interfaz de administración de menús.
+- Nuevo nodo de chequeo de festivos en la interfaz de administración de menús.
+- Se puede invitar a un menú diferente si el chat queda encolado.
+- Actualización en tiempo real de las estadísticas del dashboard.
+- Interfaz para que el supervisor puede configurar el mensaje de resolución del chat.
+- Se permite activar y desactivar canales desde la interfaz de administración de canales.
+- Nuevo reporte de tipificaciones y reporte de estados de entradas a cola.
+
+---
+
 ### **[ 2025 - 01 - 22 ]**
 - Nuevos filtros de fechas en reportes que se conservan para todos los dashboards
 - Dashboard de nivel de servicio y dashboard mensual
