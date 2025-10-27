@@ -1,3 +1,38 @@
+### **[ 2025 - 10 - 27 ]**
+- Selector de menú de espera en el nodo de distribución del chat 
+- Al crear listas en nodo interactivo, se crea automáticamente los casos asociados, tal como en los botones 
+- Selector de middleware en nodo multimedia y asistente 
+- Asignación en bloque a menús 
+- Etiqueta especial de tipo de plantilla cuando la plantilla aprobada es con botones o listas o flujos 
+- No se permite editar plantillas aprobadas 
+- Se actualiza el contenido de las plantillas si se actualiza en Facebook
+- Visualización del contenido de la plantillas tanto en el panel lateral como al iniciar conversación, con el formato real que llegará al cliente final 
+- Mensajes interactivos y plantillas aprobadas con botones se ven gráficamente en la interfaz de agente y supervisor 
+- Se permite iniciar conversación con plantillas aprobadas con imágenes y botones 
+- Se permite tener footer en las plantillas aprobadas 
+- Nueva apariencia del listado de salas con filtros y estados de chats con íconos 
+- Bloqueo de opciones para desactivar y eliminar canales 
+- Se agrega columna con id del bot de distribución del chat (acd) en el listado de canales
+- Al desactivar un canal se oculta del listado de canales disponibles al iniciar conversación 
+- Creación de canales tipo plugin 
+- Creación de contactos desde salas tipo plugin 
+- Se permita asignar un grupo de tipificaciones a las campañas
+- Opción para seleccionar sólo la página actual o todos los registros al momento de asignar y resolver conversaciones en bloque
+- Opción para eliminar todos los contactos de una empresa
+- Las operaciones sobre los contactos ahora también están disponibles desde el listado de contactos de una empresa
+- Implementación de plugin de caja de chat desde página web con usuarios registrados
+- Selección de paletas de colores para editor de menús
+- Modo oscuro en editor de menús
+- ELiminar conexión con click derecho ya funciona en editor de menús
+- Botón flotante para agrupar botones de acción en editor de menús 
+- Buscador con filtro de tipo de nodo en editor de menús
+- Se corrige error del nodo de invitar usuarios que ocurría si el dominio que hace parte del identificador del usuario tenía números
+- Imágenes de nodos interactivos ahora se renderizan embebidas dentro del contenido y no como un mensaje adicional
+- Niveles ilimitados de detalle de tipificaciones
+- Nueva versión de la plataforma de despliegues de clientes nuevos con manejo asíncrono de las operaciones
+
+---
+
 ### **[ 2025 - 06 - 09 ]**
 - Se permite asignar una prioridad al chat para que se reparta primero que los demás.
 - Opción para que no se eliminen del historial del chat los mensajes eliminados por los usuarios en su WhatsApp.
