@@ -2,8 +2,7 @@
 
 - Crear (o ingresar al) entorno virtual:
 ```bash
-    mkvirtualenv changelog
-    workon changelog
+    pyenv activate changelog
 ```
 
 - Instalar los requerimientos:

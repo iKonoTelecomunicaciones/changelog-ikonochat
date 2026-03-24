@@ -241,3 +241,5 @@ o que consulta un recurso web.
 
 - `Widget iKono Chat`: Permite insertar una sala donde usuarios pueden hablar con un chatbot o un agente.
 - Creación de aplicación de escritorio de `iKono Chat`.
+- Trytiendas
+- Integración con CRM Peq

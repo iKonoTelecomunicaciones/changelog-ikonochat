@@ -1,3 +1,32 @@
+### **[ 2026 - 06 - 24 ]**
+- Se separa el concepto de guardar un menú del concepto de publicar un menú. Se puede trabajar en un menú y guardarlo sin publicarlo
+- Se le puede dar un nombre a la versión del menú cuando se publica
+- Se puede visualizar el contenido de una versión pasada de un menú, restaurarla y publicarla si se desea
+- Se advierte si hay cambios por guardar al seleccionar un módulo o menú diferente
+- Opción para guardar los cambios de todos los módulos de un menú
+- Doble clic para abrir un nodo de un menú. Al dar clic fuera de la ventana no se cierra el nodo
+- Implementación de conexión magnética con los nodos de los menús
+- Función de mover un nodo más allá del area del editor de menús (panorámica)
+- Ajustes en conector de nodos para mostrar más información de la conexión. Si la conexión es por medio de enlace se activa un selector de los nodos existentes
+- Mostrar el autor de la publicación en el historial de versiones de los menús
+- Configuración global del menú por defecto a cargar en la interfaz de administración de menús
+- Configuración global de opciones de inactividad que se cargan por defecto en los nodos del menú
+- Al crear menú se crea el nodo inicio por defecto
+- No se permite eliminar el nodo inicio 
+- Se permite asignar un menú de calificación a las colas y campañas
+- Al momento de resolver el chat se hace la transfencia automática al menú de calificación
+- Se agregó soporte para funcionalidad de coexistence de WhatsApp 
+- Se pueden recibir contactos compartidos por los clientes en canales tipo API Cloud 
+- Se permite iniciar conversación usando canal de facebook e instagram (estando aún en la ventana de tiempo) 
+- Nuevos filtros para búsqueda de plantillas aprobadas y respuestas rápidas al iniciar conversación 
+- Ícono que permite identificar que la conversación está en un estado de calificación por parte del cliente 
+- Ver los comentarios a las publicaciones de Instagram 
+- El cliente ahora puede ver el nombre del pdf enviado en una plantilla aprobada
+- Los agentes no ven el historial de salas que se iniciaron por un canal diferente al de su perfil 
+- Integración con CRM Peq
+- Implementación de mensajes interactivos en Instagram
+
+
 ### **[ 2025 - 10 - 27 ]**
 - Selector de menú de espera en el nodo de distribución del chat 
 - Al crear listas en nodo interactivo, se crea automáticamente los casos asociados, tal como en los botones 
