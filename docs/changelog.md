@@ -1,4 +1,4 @@
-### **[ 2026 - 06 - 24 ]**
+### **[ 2026 - 03 - 24 ]**
 - Se separa el concepto de guardar un menú del concepto de publicar un menú. Se puede trabajar en un menú y guardarlo sin publicarlo
 - Se le puede dar un nombre a la versión del menú cuando se publica
 - Se puede visualizar el contenido de una versión pasada de un menú, restaurarla y publicarla si se desea
